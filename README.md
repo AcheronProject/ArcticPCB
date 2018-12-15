@@ -8,7 +8,9 @@ Copyright (C) Gondolin Electronics - All Rights Reserved.
 Developed and prototyped by
 
 Álvaro "Gondolindrim" A. Volpato (<alvaro.volpato@usp.br>) 
+
 Felipe "MrKeebs" G. Coury
+
 Raphael "ArcticFox" Hochheim (<phhochheim@gmail.com>)
 
 November 2018.
