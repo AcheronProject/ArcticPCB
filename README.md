@@ -11,6 +11,6 @@ Developed and prototyped by
 
 Felipe "MrKeebs" G. Coury
 
-Raphael "ArcticFox" Hochheim (<phhochheim@gmail.com>)
+Raphael "ArcticFox" O. Hochheim (<phhochheim@gmail.com>)
 
 November 2018.
