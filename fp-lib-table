@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name keyboard_parts)(type KiCad)(uri ${KIPRJMOD}/libs/keyboard_parts.pretty-master)(options "")(descr ""))
-  (lib (name keebs)(type KiCad)(uri ${KIPRJMOD}/libs/keebs.pretty-master)(options "")(descr ""))
-  (lib (name graphics)(type KiCad)(uri ${KIPRJMOD}/libs/graphics.pretty)(options "")(descr ""))
+  (lib (name Keyboard_switches)(type KiCad)(uri /home/alvaro/Desktop/MX/Keyboard_switches.pretty)(options "")(descr ""))
+  (lib (name USBconnector)(type KiCad)(uri /home/alvaro/Desktop/MX/USBconnector)(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri ${KIPRJMOD}/logo)(options "")(descr ""))
 )

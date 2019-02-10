@@ -1,0 +1,4425 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "ArcticPCB"
+Date "2019-02-10"
+Rev "Rev 2.0.1"
+Comp "Gondolin Electronics"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0108
+U 1 1 5BEE3841
+P 8525 9175
+F 0 "#PWR0108" H 8525 8925 50  0001 C CNN
+F 1 "GND" V 8550 9225 31  0000 R CNN
+F 2 "" H 8525 9175 50  0001 C CNN
+F 3 "" H 8525 9175 50  0001 C CNN
+	1    8525 9175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5BF27058
+P 14625 1700
+F 0 "H3" H 14725 1746 50  0000 L CNN
+F 1 "MountingHole" H 14725 1655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 1700 50  0001 C CNN
+F 3 "~" H 14625 1700 50  0001 C CNN
+	1    14625 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5BF2790A
+P 14625 1900
+F 0 "H4" H 14725 1946 50  0000 L CNN
+F 1 "MountingHole" H 14725 1855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 1900 50  0001 C CNN
+F 3 "~" H 14625 1900 50  0001 C CNN
+	1    14625 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5BF463E3
+P 14625 1300
+F 0 "H1" H 14725 1346 50  0000 L CNN
+F 1 "MountingHole" H 14725 1255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 1300 50  0001 C CNN
+F 3 "~" H 14625 1300 50  0001 C CNN
+	1    14625 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5BF463E9
+P 14625 1500
+F 0 "H2" H 14725 1546 50  0000 L CNN
+F 1 "MountingHole" H 14725 1455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 1500 50  0001 C CNN
+F 3 "~" H 14625 1500 50  0001 C CNN
+	1    14625 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5BF64E7F
+P 14625 2100
+F 0 "H5" H 14725 2146 50  0000 L CNN
+F 1 "MountingHole" H 14725 2055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 2100 50  0001 C CNN
+F 3 "~" H 14625 2100 50  0001 C CNN
+	1    14625 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5BF64E85
+P 14625 2300
+F 0 "H6" H 14725 2346 50  0000 L CNN
+F 1 "MountingHole" H 14725 2255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 2300 50  0001 C CNN
+F 3 "~" H 14625 2300 50  0001 C CNN
+	1    14625 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keyboard_switches:MXSwitch SW1
+U 1 1 5C015E05
+P 1725 1950
+F 0 "SW1" H 1650 2000 50  0000 L CNN
+F 1 "MXSwitch" H 1600 1775 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 1725 1950 50  0001 C CNN
+F 3 "" H 1725 1950 50  0001 C CNN
+	1    1725 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5C0AF46E
+P 1725 1425
+F 0 "D1" V 1694 1504 31  0000 L CNN
+F 1 "1N4148" V 1756 1504 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 1725 1425 50  0001 C CNN
+F 3 "~" H 1725 1425 50  0001 C CNN
+	1    1725 1425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	875  1250 1725 1250
+Wire Wire Line
+	1725 1600 1725 1575
+Wire Wire Line
+	1725 1275 1725 1250
+$Comp
+L Keyboard_switches:MXSwitch SW2
+U 1 1 5C0D3AD9
+P 2725 1950
+F 0 "SW2" H 2650 2000 50  0000 L CNN
+F 1 "MXSwitch" H 2600 1775 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 2725 1950 50  0001 C CNN
+F 3 "" H 2725 1950 50  0001 C CNN
+	1    2725 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5C0D3AE0
+P 2725 1425
+F 0 "D2" V 2694 1504 31  0000 L CNN
+F 1 "1N4148" V 2756 1504 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 2725 1425 50  0001 C CNN
+F 3 "~" H 2725 1425 50  0001 C CNN
+	1    2725 1425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2725 1600 2725 1575
+Wire Wire Line
+	2725 1275 2725 1250
+Connection ~ 1725 1250
+Wire Wire Line
+	1725 1250 2725 1250
+Connection ~ 2725 1250
+Wire Wire Line
+	2725 1250 3725 1250
+Wire Wire Line
+	1375 1950 1225 1950
+Wire Wire Line
+	2375 1950 2225 1950
+$Comp
+L Keyboard_switches:MXSwitch SW3
+U 1 1 5C115BC6
+P 3725 1950
+F 0 "SW3" H 3650 2000 50  0000 L CNN
+F 1 "MXSwitch" H 3600 1775 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 3725 1950 50  0001 C CNN
+F 3 "" H 3725 1950 50  0001 C CNN
+	1    3725 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5C115BCD
+P 3725 1425
+F 0 "D3" V 3694 1504 31  0000 L CNN
+F 1 "1N4148" V 3756 1504 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 3725 1425 50  0001 C CNN
+F 3 "~" H 3725 1425 50  0001 C CNN
+	1    3725 1425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3725 1600 3725 1575
+Wire Wire Line
+	3725 1275 3725 1250
+$Comp
+L Keyboard_switches:MXSwitch SW4
+U 1 1 5C115BD7
+P 4725 1950
+F 0 "SW4" H 4650 2000 50  0000 L CNN
+F 1 "MXSwitch" H 4600 1775 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 4725 1950 50  0001 C CNN
+F 3 "" H 4725 1950 50  0001 C CNN
+	1    4725 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5C115BDE
+P 4725 1425
+F 0 "D4" V 4694 1504 31  0000 L CNN
+F 1 "1N4148" V 4756 1504 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 4725 1425 50  0001 C CNN
+F 3 "~" H 4725 1425 50  0001 C CNN
+	1    4725 1425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4725 1600 4725 1575
+Wire Wire Line
+	4725 1275 4725 1250
+Connection ~ 3725 1250
+Wire Wire Line
+	3725 1250 4725 1250
+Wire Wire Line
+	3375 1950 3225 1950
+Wire Wire Line
+	4375 1950 4225 1950
+$Comp
+L Keyboard_switches:MXSwitch SW5
+U 1 1 5C12DA31
+P 5725 1950
+F 0 "SW5" H 5650 2000 50  0000 L CNN
+F 1 "MXSwitch" H 5600 1775 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 5725 1950 50  0001 C CNN
+F 3 "" H 5725 1950 50  0001 C CNN
+	1    5725 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5C12DA38
+P 5725 1425
+F 0 "D5" V 5694 1504 31  0000 L CNN
+F 1 "1N4148" V 5756 1504 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 5725 1425 50  0001 C CNN
+F 3 "~" H 5725 1425 50  0001 C CNN
+	1    5725 1425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5725 1600 5725 1575
+Wire Wire Line
+	5725 1275 5725 1250
+$Comp
+L Keyboard_switches:MXSwitch SW6
+U 1 1 5C12DA42
+P 6725 1950
+F 0 "SW6" H 6650 2000 50  0000 L CNN
+F 1 "MXSwitch" H 6600 1775 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 6725 1950 50  0001 C CNN
+F 3 "" H 6725 1950 50  0001 C CNN
+	1    6725 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5C12DA49
+P 6725 1425
+F 0 "D6" V 6694 1504 31  0000 L CNN
+F 1 "1N4148" V 6756 1504 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 6725 1425 50  0001 C CNN
+F 3 "~" H 6725 1425 50  0001 C CNN
+	1    6725 1425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6725 1600 6725 1575
+Wire Wire Line
+	6725 1275 6725 1250
+Connection ~ 5725 1250
+Wire Wire Line
+	5725 1250 6725 1250
+Connection ~ 6725 1250
+Wire Wire Line
+	6725 1250 7725 1250
+Wire Wire Line
+	5375 1950 5225 1950
+Wire Wire Line
+	6375 1950 6225 1950
+$Comp
+L Keyboard_switches:MXSwitch SW7
+U 1 1 5C12DA5E
+P 7725 1950
+F 0 "SW7" H 7650 2000 50  0000 L CNN
+F 1 "MXSwitch" H 7600 1775 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 7725 1950 50  0001 C CNN
+F 3 "" H 7725 1950 50  0001 C CNN
+	1    7725 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 5C12DA65
+P 7725 1425
+F 0 "D7" V 7694 1504 31  0000 L CNN
+F 1 "1N4148" V 7756 1504 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 7725 1425 50  0001 C CNN
+F 3 "~" H 7725 1425 50  0001 C CNN
+	1    7725 1425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7725 1600 7725 1575
+Wire Wire Line
+	7725 1275 7725 1250
+$Comp
+L Keyboard_switches:MXSwitch SW8
+U 1 1 5C12DA6F
+P 8725 1950
+F 0 "SW8" H 8650 2000 50  0000 L CNN
+F 1 "MXSwitch" H 8600 1775 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 8725 1950 50  0001 C CNN
+F 3 "" H 8725 1950 50  0001 C CNN
+	1    8725 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 5C12DA76
+P 8725 1425
+F 0 "D8" V 8694 1504 31  0000 L CNN
+F 1 "1N4148" V 8756 1504 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 8725 1425 50  0001 C CNN
+F 3 "~" H 8725 1425 50  0001 C CNN
+	1    8725 1425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8725 1600 8725 1575
+Wire Wire Line
+	8725 1275 8725 1250
+Connection ~ 7725 1250
+Wire Wire Line
+	7725 1250 8725 1250
+Wire Wire Line
+	7375 1950 7225 1950
+Wire Wire Line
+	8375 1950 8225 1950
+$Comp
+L Keyboard_switches:MXSwitch SW9
+U 1 1 5C15A34B
+P 9725 1950
+F 0 "SW9" H 9650 2000 50  0000 L CNN
+F 1 "MXSwitch" H 9600 1775 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 9725 1950 50  0001 C CNN
+F 3 "" H 9725 1950 50  0001 C CNN
+	1    9725 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 5C15A352
+P 9725 1425
+F 0 "D9" V 9694 1504 31  0000 L CNN
+F 1 "1N4148" V 9756 1504 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 9725 1425 50  0001 C CNN
+F 3 "~" H 9725 1425 50  0001 C CNN
+	1    9725 1425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9725 1600 9725 1575
+Wire Wire Line
+	9725 1275 9725 1250
+$Comp
+L Keyboard_switches:MXSwitch SW10
+U 1 1 5C15A35C
+P 10725 1950
+F 0 "SW10" H 10625 2000 50  0000 L CNN
+F 1 "MXSwitch" H 10600 1775 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 10725 1950 50  0001 C CNN
+F 3 "" H 10725 1950 50  0001 C CNN
+	1    10725 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5C15A363
+P 10725 1425
+F 0 "D10" V 10694 1504 31  0000 L CNN
+F 1 "1N4148" V 10756 1504 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 10725 1425 50  0001 C CNN
+F 3 "~" H 10725 1425 50  0001 C CNN
+	1    10725 1425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10725 1600 10725 1575
+Wire Wire Line
+	10725 1275 10725 1250
+Connection ~ 9725 1250
+Wire Wire Line
+	9725 1250 10725 1250
+Connection ~ 10725 1250
+Wire Wire Line
+	9375 1950 9225 1950
+Wire Wire Line
+	10375 1950 10225 1950
+$Comp
+L Keyboard_switches:MXSwitch SW11
+U 1 1 5C15A378
+P 11725 1950
+F 0 "SW11" H 11625 2000 50  0000 L CNN
+F 1 "MXSwitch" H 11600 1775 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 11725 1950 50  0001 C CNN
+F 3 "" H 11725 1950 50  0001 C CNN
+	1    11725 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 5C15A37F
+P 11725 1425
+F 0 "D11" V 11694 1504 31  0000 L CNN
+F 1 "1N4148" V 11756 1504 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 11725 1425 50  0001 C CNN
+F 3 "~" H 11725 1425 50  0001 C CNN
+	1    11725 1425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11725 1600 11725 1575
+Wire Wire Line
+	11725 1275 11725 1250
+$Comp
+L Keyboard_switches:MXSwitch SW12
+U 1 1 5C15A389
+P 12725 1950
+F 0 "SW12" H 12625 2000 50  0000 L CNN
+F 1 "MXSwitch" H 12600 1775 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 12725 1950 50  0001 C CNN
+F 3 "" H 12725 1950 50  0001 C CNN
+	1    12725 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 5C15A390
+P 12725 1425
+F 0 "D12" V 12694 1504 31  0000 L CNN
+F 1 "1N4148" V 12756 1504 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 12725 1425 50  0001 C CNN
+F 3 "~" H 12725 1425 50  0001 C CNN
+	1    12725 1425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12725 1600 12725 1575
+Wire Wire Line
+	12725 1275 12725 1250
+Wire Wire Line
+	11375 1950 11225 1950
+Wire Wire Line
+	12375 1950 12225 1950
+Wire Wire Line
+	10725 1250 11725 1250
+Wire Wire Line
+	4725 1250 5725 1250
+Connection ~ 4725 1250
+Wire Wire Line
+	8725 1250 9725 1250
+Connection ~ 8725 1250
+Wire Wire Line
+	11725 1250 12725 1250
+Connection ~ 11725 1250
+Wire Wire Line
+	875  2275 1725 2275
+$Comp
+L Keyboard_switches:MXSwitch SW13
+U 1 1 5C1B87E3
+P 1725 2975
+F 0 "SW13" H 1625 3025 50  0000 L CNN
+F 1 "MXSwitch" H 1600 2800 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 1725 2975 50  0001 C CNN
+F 3 "" H 1725 2975 50  0001 C CNN
+	1    1725 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 5C1B87EA
+P 1725 2450
+F 0 "D13" V 1694 2529 31  0000 L CNN
+F 1 "1N4148" V 1756 2529 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 1725 2450 50  0001 C CNN
+F 3 "~" H 1725 2450 50  0001 C CNN
+	1    1725 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1725 2625 1725 2600
+Wire Wire Line
+	1725 2300 1725 2275
+$Comp
+L Keyboard_switches:MXSwitch SW14
+U 1 1 5C1B87F4
+P 2725 2975
+F 0 "SW14" H 2625 3025 50  0000 L CNN
+F 1 "MXSwitch" H 2600 2800 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 2725 2975 50  0001 C CNN
+F 3 "" H 2725 2975 50  0001 C CNN
+	1    2725 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 5C1B87FB
+P 2725 2450
+F 0 "D14" V 2694 2529 31  0000 L CNN
+F 1 "1N4148" V 2756 2529 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 2725 2450 50  0001 C CNN
+F 3 "~" H 2725 2450 50  0001 C CNN
+	1    2725 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2725 2625 2725 2600
+Wire Wire Line
+	2725 2300 2725 2275
+Connection ~ 1725 2275
+Wire Wire Line
+	1725 2275 2725 2275
+Connection ~ 2725 2275
+Wire Wire Line
+	2725 2275 3725 2275
+Wire Wire Line
+	2375 2975 2225 2975
+$Comp
+L Keyboard_switches:MXSwitch SW15
+U 1 1 5C1B880C
+P 3725 2975
+F 0 "SW15" H 3625 3025 50  0000 L CNN
+F 1 "MXSwitch" H 3600 2800 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 3725 2975 50  0001 C CNN
+F 3 "" H 3725 2975 50  0001 C CNN
+	1    3725 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 5C1B8813
+P 3725 2450
+F 0 "D15" V 3694 2529 31  0000 L CNN
+F 1 "1N4148" V 3756 2529 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 3725 2450 50  0001 C CNN
+F 3 "~" H 3725 2450 50  0001 C CNN
+	1    3725 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3725 2625 3725 2600
+Wire Wire Line
+	3725 2300 3725 2275
+$Comp
+L Keyboard_switches:MXSwitch SW16
+U 1 1 5C1B881C
+P 4725 2975
+F 0 "SW16" H 4625 3025 50  0000 L CNN
+F 1 "MXSwitch" H 4600 2800 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 4725 2975 50  0001 C CNN
+F 3 "" H 4725 2975 50  0001 C CNN
+	1    4725 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 5C1B8823
+P 4725 2450
+F 0 "D16" V 4694 2529 31  0000 L CNN
+F 1 "1N4148" V 4756 2529 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 4725 2450 50  0001 C CNN
+F 3 "~" H 4725 2450 50  0001 C CNN
+	1    4725 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4725 2625 4725 2600
+Wire Wire Line
+	4725 2300 4725 2275
+Connection ~ 3725 2275
+Wire Wire Line
+	3725 2275 4725 2275
+Wire Wire Line
+	3375 2975 3225 2975
+Wire Wire Line
+	4375 2975 4225 2975
+$Comp
+L Keyboard_switches:MXSwitch SW17
+U 1 1 5C1B8832
+P 5725 2975
+F 0 "SW17" H 5625 3025 50  0000 L CNN
+F 1 "MXSwitch" H 5600 2800 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 5725 2975 50  0001 C CNN
+F 3 "" H 5725 2975 50  0001 C CNN
+	1    5725 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 5C1B8839
+P 5725 2450
+F 0 "D17" V 5694 2529 31  0000 L CNN
+F 1 "1N4148" V 5756 2529 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 5725 2450 50  0001 C CNN
+F 3 "~" H 5725 2450 50  0001 C CNN
+	1    5725 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5725 2625 5725 2600
+Wire Wire Line
+	5725 2300 5725 2275
+$Comp
+L Keyboard_switches:MXSwitch SW18
+U 1 1 5C1B8842
+P 6725 2975
+F 0 "SW18" H 6625 3025 50  0000 L CNN
+F 1 "MXSwitch" H 6600 2800 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 6725 2975 50  0001 C CNN
+F 3 "" H 6725 2975 50  0001 C CNN
+	1    6725 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 5C1B8849
+P 6725 2450
+F 0 "D18" V 6694 2529 31  0000 L CNN
+F 1 "1N4148" V 6756 2529 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 6725 2450 50  0001 C CNN
+F 3 "~" H 6725 2450 50  0001 C CNN
+	1    6725 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6725 2625 6725 2600
+Wire Wire Line
+	6725 2300 6725 2275
+Connection ~ 5725 2275
+Wire Wire Line
+	5725 2275 6725 2275
+Connection ~ 6725 2275
+Wire Wire Line
+	6725 2275 7725 2275
+Wire Wire Line
+	5375 2975 5225 2975
+Wire Wire Line
+	6375 2975 6225 2975
+$Comp
+L Keyboard_switches:MXSwitch SW19
+U 1 1 5C1B885A
+P 7725 2975
+F 0 "SW19" H 7625 3025 50  0000 L CNN
+F 1 "MXSwitch" H 7600 2800 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 7725 2975 50  0001 C CNN
+F 3 "" H 7725 2975 50  0001 C CNN
+	1    7725 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 5C1B8861
+P 7725 2450
+F 0 "D19" V 7694 2529 31  0000 L CNN
+F 1 "1N4148" V 7756 2529 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 7725 2450 50  0001 C CNN
+F 3 "~" H 7725 2450 50  0001 C CNN
+	1    7725 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7725 2625 7725 2600
+Wire Wire Line
+	7725 2300 7725 2275
+$Comp
+L Keyboard_switches:MXSwitch SW20
+U 1 1 5C1B886A
+P 8725 2975
+F 0 "SW20" H 8625 3025 50  0000 L CNN
+F 1 "MXSwitch" H 8600 2800 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 8725 2975 50  0001 C CNN
+F 3 "" H 8725 2975 50  0001 C CNN
+	1    8725 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 5C1B8871
+P 8725 2450
+F 0 "D20" V 8694 2529 31  0000 L CNN
+F 1 "1N4148" V 8756 2529 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 8725 2450 50  0001 C CNN
+F 3 "~" H 8725 2450 50  0001 C CNN
+	1    8725 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8725 2625 8725 2600
+Wire Wire Line
+	8725 2300 8725 2275
+Connection ~ 7725 2275
+Wire Wire Line
+	7725 2275 8725 2275
+Wire Wire Line
+	7375 2975 7225 2975
+Wire Wire Line
+	8375 2975 8225 2975
+$Comp
+L Keyboard_switches:MXSwitch SW21
+U 1 1 5C1B8880
+P 9725 2975
+F 0 "SW21" H 9625 3025 50  0000 L CNN
+F 1 "MXSwitch" H 9600 2800 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 9725 2975 50  0001 C CNN
+F 3 "" H 9725 2975 50  0001 C CNN
+	1    9725 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 5C1B8887
+P 9725 2450
+F 0 "D21" V 9694 2529 31  0000 L CNN
+F 1 "1N4148" V 9756 2529 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 9725 2450 50  0001 C CNN
+F 3 "~" H 9725 2450 50  0001 C CNN
+	1    9725 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9725 2625 9725 2600
+Wire Wire Line
+	9725 2300 9725 2275
+$Comp
+L Keyboard_switches:MXSwitch SW22
+U 1 1 5C1B8890
+P 10725 2975
+F 0 "SW22" H 10625 3025 50  0000 L CNN
+F 1 "MXSwitch" H 10600 2800 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 10725 2975 50  0001 C CNN
+F 3 "" H 10725 2975 50  0001 C CNN
+	1    10725 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 5C1B8897
+P 10725 2450
+F 0 "D22" V 10694 2529 31  0000 L CNN
+F 1 "1N4148" V 10756 2529 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 10725 2450 50  0001 C CNN
+F 3 "~" H 10725 2450 50  0001 C CNN
+	1    10725 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10725 2625 10725 2600
+Wire Wire Line
+	10725 2300 10725 2275
+Connection ~ 9725 2275
+Wire Wire Line
+	9725 2275 10725 2275
+Connection ~ 10725 2275
+Wire Wire Line
+	9375 2975 9225 2975
+Wire Wire Line
+	10375 2975 10225 2975
+$Comp
+L Keyboard_switches:MXSwitch SW23
+U 1 1 5C1B88A7
+P 11725 2975
+F 0 "SW23" H 11650 3025 50  0000 L CNN
+F 1 "MXSwitch" H 11600 2800 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 11725 2975 50  0001 C CNN
+F 3 "" H 11725 2975 50  0001 C CNN
+	1    11725 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 5C1B88AE
+P 11725 2450
+F 0 "D23" V 11694 2529 31  0000 L CNN
+F 1 "1N4148" V 11756 2529 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 11725 2450 50  0001 C CNN
+F 3 "~" H 11725 2450 50  0001 C CNN
+	1    11725 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11725 2625 11725 2600
+Wire Wire Line
+	11725 2300 11725 2275
+$Comp
+L Keyboard_switches:MXSwitch SW24
+U 1 1 5C1B88B7
+P 12725 2975
+F 0 "SW24" H 12625 3025 50  0000 L CNN
+F 1 "MXSwitch" H 12600 2800 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 12725 2975 50  0001 C CNN
+F 3 "" H 12725 2975 50  0001 C CNN
+	1    12725 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 5C1B88BE
+P 12725 2450
+F 0 "D24" V 12694 2529 31  0000 L CNN
+F 1 "1N4148" V 12756 2529 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 12725 2450 50  0001 C CNN
+F 3 "~" H 12725 2450 50  0001 C CNN
+	1    12725 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12725 2625 12725 2600
+Wire Wire Line
+	12725 2300 12725 2275
+Wire Wire Line
+	11375 2975 11225 2975
+Wire Wire Line
+	12375 2975 12225 2975
+Wire Wire Line
+	10725 2275 11725 2275
+Wire Wire Line
+	4725 2275 5725 2275
+Connection ~ 4725 2275
+Wire Wire Line
+	8725 2275 9725 2275
+Connection ~ 8725 2275
+Wire Wire Line
+	11725 2275 12725 2275
+Connection ~ 11725 2275
+Wire Wire Line
+	875  3300 1725 3300
+$Comp
+L Keyboard_switches:MXSwitch SW25
+U 1 1 5C1D740D
+P 1725 4000
+F 0 "SW25" H 1625 4050 50  0000 L CNN
+F 1 "MXSwitch" H 1600 3825 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 1725 4000 50  0001 C CNN
+F 3 "" H 1725 4000 50  0001 C CNN
+	1    1725 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 5C1D7414
+P 1725 3475
+F 0 "D25" V 1694 3554 31  0000 L CNN
+F 1 "1N4148" V 1756 3554 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 1725 3475 50  0001 C CNN
+F 3 "~" H 1725 3475 50  0001 C CNN
+	1    1725 3475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1725 3650 1725 3625
+Wire Wire Line
+	1725 3325 1725 3300
+$Comp
+L Keyboard_switches:MXSwitch SW26
+U 1 1 5C1D741D
+P 2725 4000
+F 0 "SW26" H 2625 4050 50  0000 L CNN
+F 1 "MXSwitch" H 2600 3825 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 2725 4000 50  0001 C CNN
+F 3 "" H 2725 4000 50  0001 C CNN
+	1    2725 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 5C1D7424
+P 2725 3475
+F 0 "D26" V 2694 3554 31  0000 L CNN
+F 1 "1N4148" V 2756 3554 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 2725 3475 50  0001 C CNN
+F 3 "~" H 2725 3475 50  0001 C CNN
+	1    2725 3475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2725 3650 2725 3625
+Wire Wire Line
+	2725 3325 2725 3300
+Connection ~ 1725 3300
+Wire Wire Line
+	1725 3300 2725 3300
+Connection ~ 2725 3300
+Wire Wire Line
+	2725 3300 3725 3300
+Wire Wire Line
+	1375 4000 1225 4000
+Wire Wire Line
+	2375 4000 2225 4000
+$Comp
+L Keyboard_switches:MXSwitch SW27
+U 1 1 5C1D7433
+P 3725 4000
+F 0 "SW27" H 3625 4050 50  0000 L CNN
+F 1 "MXSwitch" H 3600 3825 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 3725 4000 50  0001 C CNN
+F 3 "" H 3725 4000 50  0001 C CNN
+	1    3725 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 5C1D743A
+P 3725 3475
+F 0 "D27" V 3694 3554 31  0000 L CNN
+F 1 "1N4148" V 3756 3554 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 3725 3475 50  0001 C CNN
+F 3 "~" H 3725 3475 50  0001 C CNN
+	1    3725 3475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3725 3650 3725 3625
+Wire Wire Line
+	3725 3325 3725 3300
+$Comp
+L Keyboard_switches:MXSwitch SW28
+U 1 1 5C1D7443
+P 4725 4000
+F 0 "SW28" H 4625 4050 50  0000 L CNN
+F 1 "MXSwitch" H 4600 3825 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 4725 4000 50  0001 C CNN
+F 3 "" H 4725 4000 50  0001 C CNN
+	1    4725 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 5C1D744A
+P 4725 3475
+F 0 "D28" V 4694 3554 31  0000 L CNN
+F 1 "1N4148" V 4756 3554 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 4725 3475 50  0001 C CNN
+F 3 "~" H 4725 3475 50  0001 C CNN
+	1    4725 3475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4725 3650 4725 3625
+Wire Wire Line
+	4725 3325 4725 3300
+Connection ~ 3725 3300
+Wire Wire Line
+	3725 3300 4725 3300
+Wire Wire Line
+	3375 4000 3225 4000
+Wire Wire Line
+	4375 4000 4225 4000
+$Comp
+L Keyboard_switches:MXSwitch SW29
+U 1 1 5C1D7457
+P 5725 4000
+F 0 "SW29" H 5625 4050 50  0000 L CNN
+F 1 "MXSwitch" H 5600 3825 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 5725 4000 50  0001 C CNN
+F 3 "" H 5725 4000 50  0001 C CNN
+	1    5725 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 5C1D745E
+P 5725 3475
+F 0 "D29" V 5694 3554 31  0000 L CNN
+F 1 "1N4148" V 5756 3554 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 5725 3475 50  0001 C CNN
+F 3 "~" H 5725 3475 50  0001 C CNN
+	1    5725 3475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5725 3650 5725 3625
+Wire Wire Line
+	5725 3325 5725 3300
+$Comp
+L Keyboard_switches:MXSwitch SW30
+U 1 1 5C1D7467
+P 6725 4000
+F 0 "SW30" H 6625 4050 50  0000 L CNN
+F 1 "MXSwitch" H 6600 3825 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 6725 4000 50  0001 C CNN
+F 3 "" H 6725 4000 50  0001 C CNN
+	1    6725 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 5C1D746E
+P 6725 3475
+F 0 "D30" V 6694 3554 31  0000 L CNN
+F 1 "1N4148" V 6756 3554 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 6725 3475 50  0001 C CNN
+F 3 "~" H 6725 3475 50  0001 C CNN
+	1    6725 3475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6725 3650 6725 3625
+Wire Wire Line
+	6725 3325 6725 3300
+Connection ~ 5725 3300
+Wire Wire Line
+	5725 3300 6725 3300
+Connection ~ 6725 3300
+Wire Wire Line
+	6725 3300 7725 3300
+Wire Wire Line
+	5375 4000 5225 4000
+Wire Wire Line
+	6375 4000 6225 4000
+$Comp
+L Keyboard_switches:MXSwitch SW31
+U 1 1 5C1D747D
+P 7725 4000
+F 0 "SW31" H 7625 4050 50  0000 L CNN
+F 1 "MXSwitch" H 7600 3825 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 7725 4000 50  0001 C CNN
+F 3 "" H 7725 4000 50  0001 C CNN
+	1    7725 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 5C1D7484
+P 7725 3475
+F 0 "D31" V 7694 3554 31  0000 L CNN
+F 1 "1N4148" V 7756 3554 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 7725 3475 50  0001 C CNN
+F 3 "~" H 7725 3475 50  0001 C CNN
+	1    7725 3475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7725 3650 7725 3625
+Wire Wire Line
+	7725 3325 7725 3300
+$Comp
+L Keyboard_switches:MXSwitch SW32
+U 1 1 5C1D748D
+P 8725 4000
+F 0 "SW32" H 8625 4050 50  0000 L CNN
+F 1 "MXSwitch" H 8600 3825 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 8725 4000 50  0001 C CNN
+F 3 "" H 8725 4000 50  0001 C CNN
+	1    8725 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 5C1D7494
+P 8725 3475
+F 0 "D32" V 8694 3554 31  0000 L CNN
+F 1 "1N4148" V 8756 3554 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 8725 3475 50  0001 C CNN
+F 3 "~" H 8725 3475 50  0001 C CNN
+	1    8725 3475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8725 3650 8725 3625
+Wire Wire Line
+	8725 3325 8725 3300
+Connection ~ 7725 3300
+Wire Wire Line
+	7725 3300 8725 3300
+Wire Wire Line
+	7375 4000 7225 4000
+Wire Wire Line
+	8375 4000 8225 4000
+$Comp
+L Keyboard_switches:MXSwitch SW33
+U 1 1 5C1D74A1
+P 9725 4000
+F 0 "SW33" H 9625 4050 50  0000 L CNN
+F 1 "MXSwitch" H 9600 3825 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 9725 4000 50  0001 C CNN
+F 3 "" H 9725 4000 50  0001 C CNN
+	1    9725 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 5C1D74A8
+P 9725 3475
+F 0 "D33" V 9694 3554 31  0000 L CNN
+F 1 "1N4148" V 9756 3554 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 9725 3475 50  0001 C CNN
+F 3 "~" H 9725 3475 50  0001 C CNN
+	1    9725 3475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9725 3650 9725 3625
+Wire Wire Line
+	9725 3325 9725 3300
+$Comp
+L Keyboard_switches:MXSwitch SW34
+U 1 1 5C1D74B1
+P 10725 4000
+F 0 "SW34" H 10625 4050 50  0000 L CNN
+F 1 "MXSwitch" H 10600 3825 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 10725 4000 50  0001 C CNN
+F 3 "" H 10725 4000 50  0001 C CNN
+	1    10725 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 5C1D74B8
+P 10725 3475
+F 0 "D34" V 10694 3554 31  0000 L CNN
+F 1 "1N4148" V 10756 3554 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 10725 3475 50  0001 C CNN
+F 3 "~" H 10725 3475 50  0001 C CNN
+	1    10725 3475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10725 3650 10725 3625
+Wire Wire Line
+	10725 3325 10725 3300
+Connection ~ 9725 3300
+Wire Wire Line
+	9725 3300 10725 3300
+Connection ~ 10725 3300
+Wire Wire Line
+	9375 4000 9225 4000
+Wire Wire Line
+	10375 4000 10225 4000
+$Comp
+L Keyboard_switches:MXSwitch SW35
+U 1 1 5C1D74C6
+P 11725 4000
+F 0 "SW35" H 11650 4050 50  0000 L CNN
+F 1 "MXSwitch" H 11600 3825 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 11725 4000 50  0001 C CNN
+F 3 "" H 11725 4000 50  0001 C CNN
+	1    11725 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 5C1D74CD
+P 11725 3475
+F 0 "D35" V 11694 3554 31  0000 L CNN
+F 1 "1N4148" V 11756 3554 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 11725 3475 50  0001 C CNN
+F 3 "~" H 11725 3475 50  0001 C CNN
+	1    11725 3475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11725 3650 11725 3625
+Wire Wire Line
+	11725 3325 11725 3300
+$Comp
+L Keyboard_switches:MXSwitch SW36
+U 1 1 5C1D74D6
+P 12725 4000
+F 0 "SW36" H 12625 4050 50  0000 L CNN
+F 1 "MXSwitch" H 12600 3825 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 12725 4000 50  0001 C CNN
+F 3 "" H 12725 4000 50  0001 C CNN
+	1    12725 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 5C1D74DD
+P 12725 3475
+F 0 "D36" V 12694 3554 31  0000 L CNN
+F 1 "1N4148" V 12756 3554 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 12725 3475 50  0001 C CNN
+F 3 "~" H 12725 3475 50  0001 C CNN
+	1    12725 3475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12725 3650 12725 3625
+Wire Wire Line
+	12725 3325 12725 3300
+Wire Wire Line
+	11375 4000 11225 4000
+Wire Wire Line
+	12375 4000 12225 4000
+Wire Wire Line
+	10725 3300 11725 3300
+Wire Wire Line
+	4725 3300 5725 3300
+Connection ~ 4725 3300
+Wire Wire Line
+	8725 3300 9725 3300
+Connection ~ 8725 3300
+Wire Wire Line
+	11725 3300 12725 3300
+Connection ~ 11725 3300
+Wire Wire Line
+	1225 975  1225 1950
+Wire Wire Line
+	2225 975  2225 1950
+Wire Wire Line
+	3225 975  3225 1950
+Wire Wire Line
+	4225 975  4225 1950
+Wire Wire Line
+	5225 975  5225 1950
+Wire Wire Line
+	6225 975  6225 1950
+Wire Wire Line
+	7225 975  7225 1950
+Wire Wire Line
+	8225 975  8225 1950
+Wire Wire Line
+	9225 975  9225 1950
+Wire Wire Line
+	10225 975  10225 1950
+Wire Wire Line
+	11225 975  11225 1950
+Wire Wire Line
+	12225 975  12225 1950
+Connection ~ 1225 1950
+Connection ~ 2225 2975
+Wire Wire Line
+	2225 2975 2225 4000
+Connection ~ 3225 1950
+Connection ~ 3225 2975
+Wire Wire Line
+	3225 2975 3225 4000
+Connection ~ 4225 1950
+Connection ~ 4225 2975
+Wire Wire Line
+	4225 2975 4225 4000
+Connection ~ 5225 1950
+Connection ~ 5225 2975
+Wire Wire Line
+	5225 2975 5225 4000
+Connection ~ 6225 1950
+Connection ~ 6225 2975
+Wire Wire Line
+	6225 2975 6225 4000
+Connection ~ 7225 1950
+Connection ~ 7225 2975
+Wire Wire Line
+	7225 2975 7225 4000
+Connection ~ 8225 1950
+Connection ~ 8225 2975
+Wire Wire Line
+	8225 2975 8225 4000
+Connection ~ 9225 1950
+Connection ~ 9225 2975
+Wire Wire Line
+	9225 2975 9225 4000
+Connection ~ 10225 1950
+Connection ~ 10225 2975
+Wire Wire Line
+	10225 2975 10225 4000
+Connection ~ 11225 1950
+Connection ~ 11225 2975
+Wire Wire Line
+	11225 2975 11225 4000
+Connection ~ 12225 1950
+Connection ~ 12225 2975
+Wire Wire Line
+	12225 2975 12225 4000
+Wire Wire Line
+	875  4325 1725 4325
+$Comp
+L Keyboard_switches:MXSwitch SW37
+U 1 1 5C277799
+P 1725 5025
+F 0 "SW37" H 1625 5075 50  0000 L CNN
+F 1 "MXSwitch" H 1600 4850 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 1725 5025 50  0001 C CNN
+F 3 "" H 1725 5025 50  0001 C CNN
+	1    1725 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 5C2777A0
+P 1725 4500
+F 0 "D37" V 1694 4579 31  0000 L CNN
+F 1 "1N4148" V 1756 4579 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 1725 4500 50  0001 C CNN
+F 3 "~" H 1725 4500 50  0001 C CNN
+	1    1725 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1725 4675 1725 4650
+Wire Wire Line
+	1725 4350 1725 4325
+$Comp
+L Keyboard_switches:MXSwitch SW38
+U 1 1 5C2777A9
+P 2725 5025
+F 0 "SW38" H 2625 5075 50  0000 L CNN
+F 1 "MXSwitch" H 2600 4850 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 2725 5025 50  0001 C CNN
+F 3 "" H 2725 5025 50  0001 C CNN
+	1    2725 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 5C2777B0
+P 2725 4500
+F 0 "D38" V 2694 4579 31  0000 L CNN
+F 1 "1N4148" V 2756 4579 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 2725 4500 50  0001 C CNN
+F 3 "~" H 2725 4500 50  0001 C CNN
+	1    2725 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2725 4675 2725 4650
+Wire Wire Line
+	2725 4350 2725 4325
+Connection ~ 1725 4325
+Wire Wire Line
+	1725 4325 2725 4325
+Connection ~ 2725 4325
+Wire Wire Line
+	2725 4325 3725 4325
+Wire Wire Line
+	1375 5025 1225 5025
+Wire Wire Line
+	2375 5025 2225 5025
+$Comp
+L Keyboard_switches:MXSwitch SW39
+U 1 1 5C2777BF
+P 3725 5025
+F 0 "SW39" H 3625 5075 50  0000 L CNN
+F 1 "MXSwitch" H 3600 4850 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 3725 5025 50  0001 C CNN
+F 3 "" H 3725 5025 50  0001 C CNN
+	1    3725 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 5C2777C6
+P 3725 4500
+F 0 "D39" V 3694 4579 31  0000 L CNN
+F 1 "1N4148" V 3756 4579 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 3725 4500 50  0001 C CNN
+F 3 "~" H 3725 4500 50  0001 C CNN
+	1    3725 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3725 4675 3725 4650
+Wire Wire Line
+	3725 4350 3725 4325
+$Comp
+L Keyboard_switches:MXSwitch SW40
+U 1 1 5C2777CF
+P 4725 5025
+F 0 "SW40" H 4625 5075 50  0000 L CNN
+F 1 "MXSwitch" H 4600 4850 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 4725 5025 50  0001 C CNN
+F 3 "" H 4725 5025 50  0001 C CNN
+	1    4725 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 5C2777D6
+P 4725 4500
+F 0 "D40" V 4694 4579 31  0000 L CNN
+F 1 "1N4148" V 4756 4579 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 4725 4500 50  0001 C CNN
+F 3 "~" H 4725 4500 50  0001 C CNN
+	1    4725 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4725 4675 4725 4650
+Wire Wire Line
+	4725 4350 4725 4325
+Connection ~ 3725 4325
+Wire Wire Line
+	3725 4325 4725 4325
+Wire Wire Line
+	3375 5025 3225 5025
+Wire Wire Line
+	4375 5025 4225 5025
+$Comp
+L Keyboard_switches:MXSwitch SW41
+U 1 1 5C2777E3
+P 5725 5025
+F 0 "SW41" H 5625 5075 50  0000 L CNN
+F 1 "MXSwitch" H 5600 4850 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 5725 5025 50  0001 C CNN
+F 3 "" H 5725 5025 50  0001 C CNN
+	1    5725 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 5C2777EA
+P 5725 4500
+F 0 "D41" V 5694 4579 31  0000 L CNN
+F 1 "1N4148" V 5756 4579 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 5725 4500 50  0001 C CNN
+F 3 "~" H 5725 4500 50  0001 C CNN
+	1    5725 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5725 4675 5725 4650
+Wire Wire Line
+	5725 4350 5725 4325
+$Comp
+L Keyboard_switches:MXSwitch SW42
+U 1 1 5C2777F3
+P 6725 5025
+F 0 "SW42" H 6625 5075 50  0000 L CNN
+F 1 "MXSwitch" H 6600 4850 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 6725 5025 50  0001 C CNN
+F 3 "" H 6725 5025 50  0001 C CNN
+	1    6725 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 5C2777FA
+P 6725 4500
+F 0 "D42" V 6694 4579 31  0000 L CNN
+F 1 "1N4148" V 6756 4579 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 6725 4500 50  0001 C CNN
+F 3 "~" H 6725 4500 50  0001 C CNN
+	1    6725 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6725 4675 6725 4650
+Wire Wire Line
+	6725 4350 6725 4325
+Connection ~ 5725 4325
+Connection ~ 6725 4325
+Wire Wire Line
+	6725 4325 7725 4325
+Wire Wire Line
+	5375 5025 5225 5025
+Wire Wire Line
+	6375 5025 6225 5025
+$Comp
+L Keyboard_switches:MXSwitch SW43
+U 1 1 5C277809
+P 7725 5025
+F 0 "SW43" H 7625 5075 50  0000 L CNN
+F 1 "MXSwitch" H 7600 4850 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 7725 5025 50  0001 C CNN
+F 3 "" H 7725 5025 50  0001 C CNN
+	1    7725 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 5C277810
+P 7725 4500
+F 0 "D43" V 7694 4579 31  0000 L CNN
+F 1 "1N4148" V 7756 4579 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 7725 4500 50  0001 C CNN
+F 3 "~" H 7725 4500 50  0001 C CNN
+	1    7725 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7725 4675 7725 4650
+Wire Wire Line
+	7725 4350 7725 4325
+$Comp
+L Keyboard_switches:MXSwitch SW44
+U 1 1 5C277819
+P 8725 5025
+F 0 "SW44" H 8625 5075 50  0000 L CNN
+F 1 "MXSwitch" H 8600 4850 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 8725 5025 50  0001 C CNN
+F 3 "" H 8725 5025 50  0001 C CNN
+	1    8725 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 5C277820
+P 8725 4500
+F 0 "D44" V 8694 4579 31  0000 L CNN
+F 1 "1N4148" V 8756 4579 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 8725 4500 50  0001 C CNN
+F 3 "~" H 8725 4500 50  0001 C CNN
+	1    8725 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8725 4675 8725 4650
+Wire Wire Line
+	8725 4350 8725 4325
+Connection ~ 7725 4325
+Wire Wire Line
+	7725 4325 8725 4325
+Wire Wire Line
+	7375 5025 7225 5025
+Wire Wire Line
+	8375 5025 8225 5025
+$Comp
+L Keyboard_switches:MXSwitch SW45
+U 1 1 5C27782D
+P 9725 5025
+F 0 "SW45" H 9625 5075 50  0000 L CNN
+F 1 "MXSwitch" H 9600 4850 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 9725 5025 50  0001 C CNN
+F 3 "" H 9725 5025 50  0001 C CNN
+	1    9725 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 5C277834
+P 9725 4500
+F 0 "D45" V 9694 4579 31  0000 L CNN
+F 1 "1N4148" V 9756 4579 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 9725 4500 50  0001 C CNN
+F 3 "~" H 9725 4500 50  0001 C CNN
+	1    9725 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9725 4675 9725 4650
+Wire Wire Line
+	9725 4350 9725 4325
+$Comp
+L Keyboard_switches:MXSwitch SW46
+U 1 1 5C27783D
+P 10725 5025
+F 0 "SW46" H 10625 5075 50  0000 L CNN
+F 1 "MXSwitch" H 10600 4850 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 10725 5025 50  0001 C CNN
+F 3 "" H 10725 5025 50  0001 C CNN
+	1    10725 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D46
+U 1 1 5C277844
+P 10725 4500
+F 0 "D46" V 10694 4579 31  0000 L CNN
+F 1 "1N4148" V 10756 4579 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 10725 4500 50  0001 C CNN
+F 3 "~" H 10725 4500 50  0001 C CNN
+	1    10725 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10725 4675 10725 4650
+Wire Wire Line
+	10725 4350 10725 4325
+Connection ~ 9725 4325
+Wire Wire Line
+	9725 4325 10725 4325
+Connection ~ 10725 4325
+Wire Wire Line
+	9375 5025 9225 5025
+Wire Wire Line
+	10375 5025 10225 5025
+$Comp
+L Keyboard_switches:MXSwitch SW47
+U 1 1 5C277852
+P 11725 5025
+F 0 "SW47" H 11650 5075 50  0000 L CNN
+F 1 "MXSwitch" H 11600 4850 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 11725 5025 50  0001 C CNN
+F 3 "" H 11725 5025 50  0001 C CNN
+	1    11725 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D47
+U 1 1 5C277859
+P 11725 4500
+F 0 "D47" V 11694 4579 31  0000 L CNN
+F 1 "1N4148" V 11756 4579 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 11725 4500 50  0001 C CNN
+F 3 "~" H 11725 4500 50  0001 C CNN
+	1    11725 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11725 4675 11725 4650
+Wire Wire Line
+	11725 4350 11725 4325
+$Comp
+L Keyboard_switches:MXSwitch SW48
+U 1 1 5C277862
+P 12725 5025
+F 0 "SW48" H 12625 5075 50  0000 L CNN
+F 1 "MXSwitch" H 12600 4850 39  0000 L CNN
+F 2 "Keyboard_switches:MX100" H 12725 5025 50  0001 C CNN
+F 3 "" H 12725 5025 50  0001 C CNN
+	1    12725 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D48
+U 1 1 5C277869
+P 12725 4500
+F 0 "D48" V 12694 4579 31  0000 L CNN
+F 1 "1N4148" V 12756 4579 31  0000 L CNN
+F 2 "Keyboard_switches:D_SOD-123" H 12725 4500 50  0001 C CNN
+F 3 "~" H 12725 4500 50  0001 C CNN
+	1    12725 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12725 4675 12725 4650
+Wire Wire Line
+	12725 4350 12725 4325
+Wire Wire Line
+	11375 5025 11225 5025
+Wire Wire Line
+	12375 5025 12225 5025
+Wire Wire Line
+	10725 4325 11725 4325
+Wire Wire Line
+	4725 4325 5725 4325
+Connection ~ 4725 4325
+Wire Wire Line
+	8725 4325 9725 4325
+Connection ~ 8725 4325
+Wire Wire Line
+	11725 4325 12725 4325
+Connection ~ 11725 4325
+Wire Wire Line
+	6375 5775 6225 5775
+Wire Wire Line
+	6225 5775 6225 5025
+Wire Wire Line
+	7375 5775 7225 5775
+Wire Wire Line
+	7225 5775 7225 5025
+$Comp
+L Keyboard_switches:MXSwitch SW50
+U 1 1 5C2D3025
+P 6725 5775
+F 0 "SW50" H 6625 5825 50  0000 L CNN
+F 1 "MXSwitch" H 6600 5600 39  0000 L CNN
+F 2 "Keyboard_switches:MX200R" H 6725 5775 50  0001 C CNN
+F 3 "" H 6725 5775 50  0001 C CNN
+	1    6725 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keyboard_switches:MXSwitch SW51
+U 1 1 5C358C0D
+P 7725 5775
+F 0 "SW51" H 7625 5825 50  0000 L CNN
+F 1 "MXSwitch" H 7600 5600 39  0000 L CNN
+F 2 "Keyboard_switches:MX200R" H 7725 5775 50  0001 C CNN
+F 3 "" H 7725 5775 50  0001 C CNN
+	1    7725 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keyboard_switches:MXSwitch SW49
+U 1 1 5C4B27E7
+P 5725 5775
+F 0 "SW49" H 5625 5825 50  0000 L CNN
+F 1 "MXSwitch" H 5600 5600 39  0000 L CNN
+F 2 "Keyboard_switches:MX200R" H 5725 5775 50  0001 C CNN
+F 3 "" H 5725 5775 50  0001 C CNN
+	1    5725 5775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1225 2975 1225 4000
+Wire Wire Line
+	1225 1950 1225 2975
+Wire Wire Line
+	3225 1950 3225 2975
+Wire Wire Line
+	4225 1950 4225 2975
+Wire Wire Line
+	5225 1950 5225 2975
+Wire Wire Line
+	6225 1950 6225 2975
+Wire Wire Line
+	7225 1950 7225 2975
+Wire Wire Line
+	8225 1950 8225 2975
+Wire Wire Line
+	9225 1950 9225 2975
+Wire Wire Line
+	10225 1950 10225 2975
+Wire Wire Line
+	11225 1950 11225 2975
+Wire Wire Line
+	12225 1950 12225 2975
+Connection ~ 1225 2975
+Wire Wire Line
+	1225 2975 1375 2975
+Wire Wire Line
+	2225 1950 2225 2975
+Connection ~ 2225 1950
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5D038FCF
+P 14625 2500
+F 0 "H7" H 14725 2546 50  0000 L CNN
+F 1 "MountingHole" H 14725 2455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 2500 50  0001 C CNN
+F 3 "~" H 14625 2500 50  0001 C CNN
+	1    14625 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5D03B7BC
+P 14625 2700
+F 0 "H8" H 14725 2746 50  0000 L CNN
+F 1 "MountingHole" H 14725 2655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 2700 50  0001 C CNN
+F 3 "~" H 14625 2700 50  0001 C CNN
+	1    14625 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 5D03B8D6
+P 14625 2900
+F 0 "H9" H 14725 2946 50  0000 L CNN
+F 1 "MountingHole" H 14725 2855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 2900 50  0001 C CNN
+F 3 "~" H 14625 2900 50  0001 C CNN
+	1    14625 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 5C00FDC2
+P 14625 3100
+F 0 "H10" H 14725 3146 50  0000 L CNN
+F 1 "MountingHole" H 14725 3055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 3100 50  0001 C CNN
+F 3 "~" H 14625 3100 50  0001 C CNN
+	1    14625 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 5C00FEDC
+P 14625 3300
+F 0 "H11" H 14725 3346 50  0000 L CNN
+F 1 "MountingHole" H 14725 3255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 14625 3300 50  0001 C CNN
+F 3 "~" H 14625 3300 50  0001 C CNN
+	1    14625 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5725 4325 6725 4325
+Wire Wire Line
+	5725 4650 6025 4650
+Wire Wire Line
+	7025 5350 6725 5350
+Wire Wire Line
+	6725 5350 6725 5425
+Connection ~ 5725 4650
+Wire Wire Line
+	7025 4650 7025 5350
+Wire Wire Line
+	5225 4000 5225 5025
+Connection ~ 5225 4000
+Wire Wire Line
+	6225 4000 6225 5025
+Connection ~ 6225 4000
+Wire Wire Line
+	7725 5350 8025 5350
+Wire Wire Line
+	8025 5350 8025 4650
+Wire Wire Line
+	7025 4650 6725 4650
+Wire Wire Line
+	7725 5350 7725 5425
+Connection ~ 6725 4650
+Wire Wire Line
+	6025 5350 6025 4650
+Connection ~ 6225 5025
+Connection ~ 5225 5025
+Connection ~ 7225 5025
+Wire Wire Line
+	5375 5775 5225 5775
+Wire Wire Line
+	5225 5025 5225 5775
+Wire Wire Line
+	7725 4650 8025 4650
+Connection ~ 7725 4650
+Wire Wire Line
+	5725 5350 5725 5425
+Wire Wire Line
+	5725 5350 6025 5350
+Connection ~ 1225 4000
+Wire Wire Line
+	1225 4000 1225 5025
+Wire Wire Line
+	8225 9175 8225 9225
+$Comp
+L Device:C_Small C7
+U 1 1 5C192852
+P 8225 9375
+F 0 "C7" H 8300 9300 31  0000 R CNN
+F 1 "4.7n" H 8350 9450 31  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8225 9375 50  0001 C CNN
+F 3 "~" H 8225 9375 50  0001 C CNN
+	1    8225 9375
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5C1953C2
+P 8025 9375
+F 0 "R5" V 7925 9375 50  0000 C CNN
+F 1 "1M" V 8025 9375 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7955 9375 50  0001 C CNN
+F 3 "~" H 8025 9375 50  0001 C CNN
+	1    8025 9375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8025 9225 8225 9225
+Wire Wire Line
+	8225 9225 8225 9275
+Connection ~ 8225 9225
+Wire Wire Line
+	8225 9475 8225 9525
+Wire Wire Line
+	8225 9525 8025 9525
+Wire Wire Line
+	8025 9525 8025 9575
+Connection ~ 8025 9525
+$Comp
+L power:GND #PWR0107
+U 1 1 5C237223
+P 8025 9575
+F 0 "#PWR0107" H 8025 9325 50  0001 C CNN
+F 1 "GND" V 8030 9447 50  0000 R CNN
+F 2 "" H 8025 9575 50  0001 C CNN
+F 3 "" H 8025 9575 50  0001 C CNN
+	1    8025 9575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 5C25B88F
+P 10600 7125
+F 0 "F1" V 10439 7125 31  0000 C CNN
+F 1 "1A" V 10501 7125 31  0000 C CNN
+F 2 "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10650 6925 50  0001 L CNN
+F 3 "~" H 10600 7125 50  0001 C CNN
+	1    10600 7125
+	0    1    1    0   
+$EndComp
+Text Notes 10475 7175 0    20   ~ 0
+Polyfuse PPTC RTC 
+$Comp
+L Device:D_Schottky_Small DF1
+U 1 1 5C2FFE6A
+P 10850 7275
+F 0 "DF1" V 10850 7100 31  0000 L CNN
+F 1 "RB060M-60TR" V 10925 6900 31  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 10850 7275 50  0001 C CNN
+F 3 "~" V 10850 7275 50  0001 C CNN
+	1    10850 7275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10700 7125 10850 7125
+Wire Wire Line
+	10850 7125 10850 7175
+Connection ~ 10850 7125
+Wire Wire Line
+	10850 7375 10850 7425
+$Comp
+L power:GND #PWR0112
+U 1 1 5C363806
+P 10850 7425
+F 0 "#PWR0112" H 10850 7175 50  0001 C CNN
+F 1 "GND" V 10855 7297 50  0000 R CNN
+F 2 "" H 10850 7425 50  0001 C CNN
+F 3 "" H 10850 7425 50  0001 C CNN
+	1    10850 7425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7025 6875 7025 6925
+$Comp
+L Device:C_Small C9
+U 1 1 5C391EB2
+P 7025 7075
+F 0 "C9" H 7100 7000 31  0000 R CNN
+F 1 "4.7n" H 7150 7150 31  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7025 7075 50  0001 C CNN
+F 3 "~" H 7025 7075 50  0001 C CNN
+	1    7025 7075
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5C391EB9
+P 6825 7075
+F 0 "R6" V 6725 7075 50  0000 C CNN
+F 1 "1M" V 6825 7075 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6755 7075 50  0001 C CNN
+F 3 "~" H 6825 7075 50  0001 C CNN
+	1    6825 7075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6825 6925 7025 6925
+Wire Wire Line
+	7025 6925 7025 6975
+Connection ~ 7025 6925
+Wire Wire Line
+	7025 7175 7025 7225
+Wire Wire Line
+	7025 7225 6825 7225
+Wire Wire Line
+	6825 7225 6825 7275
+Connection ~ 6825 7225
+$Comp
+L power:GND #PWR0113
+U 1 1 5C391EC7
+P 6825 7275
+F 0 "#PWR0113" H 6825 7025 50  0001 C CNN
+F 1 "GND" V 6830 7147 50  0000 R CNN
+F 2 "" H 6825 7275 50  0001 C CNN
+F 3 "" H 6825 7275 50  0001 C CNN
+	1    6825 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H12
+U 1 1 5C3B52F4
+P 7025 6775
+F 0 "H12" H 7125 6826 50  0000 L CNN
+F 1 "CASE" H 7125 6735 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 7025 6775 50  0001 C CNN
+F 3 "~" H 7025 6775 50  0001 C CNN
+	1    7025 6775
+	1    0    0    -1  
+$EndComp
+Connection ~ 2225 4000
+Wire Wire Line
+	2225 4000 2225 5025
+Connection ~ 3225 4000
+Wire Wire Line
+	3225 4000 3225 5025
+Connection ~ 4225 4000
+Wire Wire Line
+	4225 4000 4225 5025
+Connection ~ 7225 4000
+Wire Wire Line
+	7225 4000 7225 5025
+Connection ~ 8225 4000
+Wire Wire Line
+	8225 4000 8225 5025
+Connection ~ 9225 4000
+Wire Wire Line
+	9225 4000 9225 5025
+Connection ~ 10225 4000
+Wire Wire Line
+	10225 4000 10225 5025
+Connection ~ 11225 4000
+Wire Wire Line
+	11225 4000 11225 5025
+Connection ~ 12225 4000
+Wire Wire Line
+	12225 4000 12225 5025
+Text GLabel 875  1250 0    50   Input ~ 0
+Row1
+Text GLabel 875  2275 0    50   Input ~ 0
+Row2
+Text GLabel 875  3300 0    50   Input ~ 0
+Row3
+Text GLabel 875  4325 0    50   Input ~ 0
+Row4
+Text GLabel 1225 975  1    50   Input ~ 0
+Col1
+Text GLabel 2225 975  1    50   Input ~ 0
+Col2
+Text GLabel 3225 975  1    50   Input ~ 0
+Col3
+Text GLabel 4225 975  1    50   Input ~ 0
+Col4
+Text GLabel 5225 975  1    50   Input ~ 0
+Col5
+Text GLabel 6225 975  1    50   Input ~ 0
+Col6
+Text GLabel 7225 975  1    50   Input ~ 0
+Col7
+Text GLabel 8225 975  1    50   Input ~ 0
+Col8
+Text GLabel 9225 975  1    50   Input ~ 0
+Col9
+Text GLabel 10225 975  1    50   Input ~ 0
+Col10
+Text GLabel 11225 975  1    50   Input ~ 0
+Col11
+Text GLabel 12225 975  1    50   Input ~ 0
+Col12
+$Comp
+L Device:R_Small RL1
+U 1 1 5C1A3269
+P 1675 6275
+F 0 "RL1" H 1734 6306 31  0000 L CNN
+F 1 "360" H 1734 6244 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 1675 6275 50  0001 C CNN
+F 3 "~" H 1675 6275 50  0001 C CNN
+	1    1675 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL2
+U 1 1 5C1A4AA9
+P 1950 6275
+F 0 "RL2" H 2009 6306 31  0000 L CNN
+F 1 "360" H 2009 6244 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 1950 6275 50  0001 C CNN
+F 3 "~" H 1950 6275 50  0001 C CNN
+	1    1950 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL3
+U 1 1 5C1C47E2
+P 2225 6275
+F 0 "RL3" H 2284 6306 31  0000 L CNN
+F 1 "360" H 2284 6244 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2225 6275 50  0001 C CNN
+F 3 "~" H 2225 6275 50  0001 C CNN
+	1    2225 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL4
+U 1 1 5C1C47F0
+P 2500 6275
+F 0 "RL4" H 2559 6306 31  0000 L CNN
+F 1 "R_LED" H 2559 6244 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2500 6275 50  0001 C CNN
+F 3 "~" H 2500 6275 50  0001 C CNN
+	1    2500 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL5
+U 1 1 5C1E4B19
+P 2775 6275
+F 0 "RL5" H 2834 6306 31  0000 L CNN
+F 1 "360" H 2834 6244 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2775 6275 50  0001 C CNN
+F 3 "~" H 2775 6275 50  0001 C CNN
+	1    2775 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL6
+U 1 1 5C1E4B27
+P 3050 6275
+F 0 "RL6" H 3109 6306 31  0000 L CNN
+F 1 "360" H 3109 6244 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3050 6275 50  0001 C CNN
+F 3 "~" H 3050 6275 50  0001 C CNN
+	1    3050 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL7
+U 1 1 5C1E4B35
+P 3325 6275
+F 0 "RL7" H 3384 6306 31  0000 L CNN
+F 1 "360" H 3384 6244 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3325 6275 50  0001 C CNN
+F 3 "~" H 3325 6275 50  0001 C CNN
+	1    3325 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL8
+U 1 1 5C1E4B43
+P 3600 6275
+F 0 "RL8" H 3659 6306 31  0000 L CNN
+F 1 "360" H 3659 6244 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3600 6275 50  0001 C CNN
+F 3 "~" H 3600 6275 50  0001 C CNN
+	1    3600 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL9
+U 1 1 5C204AA0
+P 3875 6275
+F 0 "RL9" H 3934 6306 31  0000 L CNN
+F 1 "360" H 3934 6244 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3875 6275 50  0001 C CNN
+F 3 "~" H 3875 6275 50  0001 C CNN
+	1    3875 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL10
+U 1 1 5C204AAE
+P 4150 6275
+F 0 "RL10" H 4209 6306 31  0000 L CNN
+F 1 "360" H 4209 6244 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4150 6275 50  0001 C CNN
+F 3 "~" H 4150 6275 50  0001 C CNN
+	1    4150 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL11
+U 1 1 5C204ABC
+P 4425 6275
+F 0 "RL11" H 4484 6306 31  0000 L CNN
+F 1 "360" H 4484 6244 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4425 6275 50  0001 C CNN
+F 3 "~" H 4425 6275 50  0001 C CNN
+	1    4425 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL12
+U 1 1 5C204ACA
+P 4700 6275
+F 0 "RL12" H 4759 6306 31  0000 L CNN
+F 1 "360" H 4759 6244 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4700 6275 50  0001 C CNN
+F 3 "~" H 4700 6275 50  0001 C CNN
+	1    4700 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL13
+U 1 1 5C228515
+P 1675 6950
+F 0 "RL13" H 1734 6981 31  0000 L CNN
+F 1 "360" H 1734 6919 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 1675 6950 50  0001 C CNN
+F 3 "~" H 1675 6950 50  0001 C CNN
+	1    1675 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL14
+U 1 1 5C228523
+P 1950 6950
+F 0 "RL14" H 2009 6981 31  0000 L CNN
+F 1 "360" H 2009 6919 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 1950 6950 50  0001 C CNN
+F 3 "~" H 1950 6950 50  0001 C CNN
+	1    1950 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL15
+U 1 1 5C228531
+P 2225 6950
+F 0 "RL15" H 2284 6981 31  0000 L CNN
+F 1 "360" H 2284 6919 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2225 6950 50  0001 C CNN
+F 3 "~" H 2225 6950 50  0001 C CNN
+	1    2225 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL16
+U 1 1 5C22853F
+P 2500 6950
+F 0 "RL16" H 2559 6981 31  0000 L CNN
+F 1 "360" H 2559 6919 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2500 6950 50  0001 C CNN
+F 3 "~" H 2500 6950 50  0001 C CNN
+	1    2500 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL17
+U 1 1 5C22854D
+P 2775 6950
+F 0 "RL17" H 2834 6981 31  0000 L CNN
+F 1 "360" H 2834 6919 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2775 6950 50  0001 C CNN
+F 3 "~" H 2775 6950 50  0001 C CNN
+	1    2775 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL18
+U 1 1 5C22855B
+P 3050 6950
+F 0 "RL18" H 3109 6981 31  0000 L CNN
+F 1 "360" H 3109 6919 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3050 6950 50  0001 C CNN
+F 3 "~" H 3050 6950 50  0001 C CNN
+	1    3050 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL19
+U 1 1 5C228569
+P 3325 6950
+F 0 "RL19" H 3384 6981 31  0000 L CNN
+F 1 "360" H 3384 6919 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3325 6950 50  0001 C CNN
+F 3 "~" H 3325 6950 50  0001 C CNN
+	1    3325 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL20
+U 1 1 5C228577
+P 3600 6950
+F 0 "RL20" H 3659 6981 31  0000 L CNN
+F 1 "360" H 3659 6919 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3600 6950 50  0001 C CNN
+F 3 "~" H 3600 6950 50  0001 C CNN
+	1    3600 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL21
+U 1 1 5C228585
+P 3875 6950
+F 0 "RL21" H 3934 6981 31  0000 L CNN
+F 1 "360" H 3934 6919 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3875 6950 50  0001 C CNN
+F 3 "~" H 3875 6950 50  0001 C CNN
+	1    3875 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL22
+U 1 1 5C228593
+P 4150 6950
+F 0 "RL22" H 4209 6981 31  0000 L CNN
+F 1 "360" H 4209 6919 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4150 6950 50  0001 C CNN
+F 3 "~" H 4150 6950 50  0001 C CNN
+	1    4150 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL23
+U 1 1 5C2285A1
+P 4425 6950
+F 0 "RL23" H 4484 6981 31  0000 L CNN
+F 1 "360" H 4484 6919 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4425 6950 50  0001 C CNN
+F 3 "~" H 4425 6950 50  0001 C CNN
+	1    4425 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL24
+U 1 1 5C2285AF
+P 4700 6950
+F 0 "RL24" H 4759 6981 31  0000 L CNN
+F 1 "360" H 4759 6919 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4700 6950 50  0001 C CNN
+F 3 "~" H 4700 6950 50  0001 C CNN
+	1    4700 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL25
+U 1 1 5C26C143
+P 1675 7650
+F 0 "RL25" H 1734 7681 31  0000 L CNN
+F 1 "360" H 1734 7619 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 1675 7650 50  0001 C CNN
+F 3 "~" H 1675 7650 50  0001 C CNN
+	1    1675 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL26
+U 1 1 5C26C151
+P 1950 7650
+F 0 "RL26" H 2009 7681 31  0000 L CNN
+F 1 "360" H 2009 7619 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 1950 7650 50  0001 C CNN
+F 3 "~" H 1950 7650 50  0001 C CNN
+	1    1950 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL27
+U 1 1 5C26C15F
+P 2225 7650
+F 0 "RL27" H 2284 7681 31  0000 L CNN
+F 1 "360" H 2284 7619 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2225 7650 50  0001 C CNN
+F 3 "~" H 2225 7650 50  0001 C CNN
+	1    2225 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL28
+U 1 1 5C26C16D
+P 2500 7650
+F 0 "RL28" H 2559 7681 31  0000 L CNN
+F 1 "360" H 2559 7619 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2500 7650 50  0001 C CNN
+F 3 "~" H 2500 7650 50  0001 C CNN
+	1    2500 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL29
+U 1 1 5C26C17B
+P 2775 7650
+F 0 "RL29" H 2834 7681 31  0000 L CNN
+F 1 "360" H 2834 7619 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2775 7650 50  0001 C CNN
+F 3 "~" H 2775 7650 50  0001 C CNN
+	1    2775 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL30
+U 1 1 5C26C189
+P 3050 7650
+F 0 "RL30" H 3109 7681 31  0000 L CNN
+F 1 "360" H 3109 7619 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3050 7650 50  0001 C CNN
+F 3 "~" H 3050 7650 50  0001 C CNN
+	1    3050 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL31
+U 1 1 5C26C197
+P 3325 7650
+F 0 "RL31" H 3384 7681 31  0000 L CNN
+F 1 "360" H 3384 7619 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3325 7650 50  0001 C CNN
+F 3 "~" H 3325 7650 50  0001 C CNN
+	1    3325 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL32
+U 1 1 5C26C1A5
+P 3600 7650
+F 0 "RL32" H 3659 7681 31  0000 L CNN
+F 1 "360" H 3659 7619 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3600 7650 50  0001 C CNN
+F 3 "~" H 3600 7650 50  0001 C CNN
+	1    3600 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL33
+U 1 1 5C26C1B3
+P 3875 7650
+F 0 "RL33" H 3934 7681 31  0000 L CNN
+F 1 "360" H 3934 7619 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3875 7650 50  0001 C CNN
+F 3 "~" H 3875 7650 50  0001 C CNN
+	1    3875 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL34
+U 1 1 5C26C1C1
+P 4150 7650
+F 0 "RL34" H 4209 7681 31  0000 L CNN
+F 1 "360" H 4209 7619 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4150 7650 50  0001 C CNN
+F 3 "~" H 4150 7650 50  0001 C CNN
+	1    4150 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL35
+U 1 1 5C26C1CF
+P 4425 7650
+F 0 "RL35" H 4484 7681 31  0000 L CNN
+F 1 "360" H 4484 7619 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4425 7650 50  0001 C CNN
+F 3 "~" H 4425 7650 50  0001 C CNN
+	1    4425 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL36
+U 1 1 5C26C1DD
+P 4700 7650
+F 0 "RL36" H 4759 7681 31  0000 L CNN
+F 1 "360" H 4759 7619 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4700 7650 50  0001 C CNN
+F 3 "~" H 4700 7650 50  0001 C CNN
+	1    4700 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL37
+U 1 1 5C26C1EB
+P 1675 8325
+F 0 "RL37" H 1734 8356 31  0000 L CNN
+F 1 "360" H 1734 8294 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 1675 8325 50  0001 C CNN
+F 3 "~" H 1675 8325 50  0001 C CNN
+	1    1675 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL38
+U 1 1 5C26C1F9
+P 1950 8325
+F 0 "RL38" H 2009 8356 31  0000 L CNN
+F 1 "360" H 2009 8294 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 1950 8325 50  0001 C CNN
+F 3 "~" H 1950 8325 50  0001 C CNN
+	1    1950 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL39
+U 1 1 5C26C207
+P 2225 8325
+F 0 "RL39" H 2284 8356 31  0000 L CNN
+F 1 "360" H 2284 8294 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2225 8325 50  0001 C CNN
+F 3 "~" H 2225 8325 50  0001 C CNN
+	1    2225 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL40
+U 1 1 5C26C215
+P 2500 8325
+F 0 "RL40" H 2559 8356 31  0000 L CNN
+F 1 "360" H 2559 8294 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2500 8325 50  0001 C CNN
+F 3 "~" H 2500 8325 50  0001 C CNN
+	1    2500 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL41
+U 1 1 5C26C223
+P 2775 8325
+F 0 "RL41" H 2834 8356 31  0000 L CNN
+F 1 "360" H 2834 8294 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2775 8325 50  0001 C CNN
+F 3 "~" H 2775 8325 50  0001 C CNN
+	1    2775 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL42
+U 1 1 5C26C231
+P 3050 8325
+F 0 "RL42" H 3109 8356 31  0000 L CNN
+F 1 "360" H 3109 8294 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3050 8325 50  0001 C CNN
+F 3 "~" H 3050 8325 50  0001 C CNN
+	1    3050 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL43
+U 1 1 5C26C23F
+P 3325 8325
+F 0 "RL43" H 3384 8356 31  0000 L CNN
+F 1 "360" H 3384 8294 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3325 8325 50  0001 C CNN
+F 3 "~" H 3325 8325 50  0001 C CNN
+	1    3325 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL44
+U 1 1 5C26C24D
+P 3600 8325
+F 0 "RL44" H 3659 8356 31  0000 L CNN
+F 1 "360" H 3659 8294 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3600 8325 50  0001 C CNN
+F 3 "~" H 3600 8325 50  0001 C CNN
+	1    3600 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL45
+U 1 1 5C26C25B
+P 3875 8325
+F 0 "RL45" H 3934 8356 31  0000 L CNN
+F 1 "360" H 3934 8294 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3875 8325 50  0001 C CNN
+F 3 "~" H 3875 8325 50  0001 C CNN
+	1    3875 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL46
+U 1 1 5C26C269
+P 4150 8325
+F 0 "RL46" H 4209 8356 31  0000 L CNN
+F 1 "360" H 4209 8294 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4150 8325 50  0001 C CNN
+F 3 "~" H 4150 8325 50  0001 C CNN
+	1    4150 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL47
+U 1 1 5C26C277
+P 4425 8325
+F 0 "RL47" H 4484 8356 31  0000 L CNN
+F 1 "360" H 4484 8294 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4425 8325 50  0001 C CNN
+F 3 "~" H 4425 8325 50  0001 C CNN
+	1    4425 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small RL48
+U 1 1 5C26C285
+P 4700 8325
+F 0 "RL48" H 4759 8356 31  0000 L CNN
+F 1 "360" H 4759 8294 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4700 8325 50  0001 C CNN
+F 3 "~" H 4700 8325 50  0001 C CNN
+	1    4700 8325
+	1    0    0    -1  
+$EndComp
+Text GLabel 1025 8975 0    50   Input ~ 0
+LED_PWM
+$Comp
+L Device:R_Small RSGate1
+U 1 1 5C2E1F91
+P 1200 8975
+F 0 "RSGate1" V 1048 8975 31  0000 C CNN
+F 1 "100" V 1110 8975 31  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1200 8975 50  0001 C CNN
+F 3 "~" H 1200 8975 50  0001 C CNN
+	1    1200 8975
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small RPGate1
+U 1 1 5C2E54A4
+P 1350 9150
+F 0 "RPGate1" H 1291 9119 31  0000 R CNN
+F 1 "10k" H 1291 9181 31  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1350 9150 50  0001 C CNN
+F 3 "~" H 1350 9150 50  0001 C CNN
+	1    1350 9150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1350 8975 1350 9050
+Wire Wire Line
+	1350 8975 1375 8975
+$Comp
+L power:GND #PWR0114
+U 1 1 5C3CE56B
+P 1675 9450
+F 0 "#PWR0114" H 1675 9200 50  0001 C CNN
+F 1 "GND" H 1680 9277 50  0000 C CNN
+F 2 "" H 1675 9450 50  0001 C CNN
+F 3 "" H 1675 9450 50  0001 C CNN
+	1    1675 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1025 8975 1100 8975
+Wire Wire Line
+	1300 8975 1350 8975
+Connection ~ 1350 8975
+Wire Wire Line
+	1675 8475 1675 8425
+Wire Wire Line
+	1950 8475 1950 8425
+Wire Wire Line
+	2225 8475 2225 8425
+Wire Wire Line
+	2500 8425 2500 8475
+Wire Wire Line
+	2775 8425 2775 8450
+Wire Wire Line
+	2775 8450 2875 8450
+Wire Wire Line
+	2875 8450 2875 8475
+Connection ~ 2775 8450
+Wire Wire Line
+	2775 8450 2775 8475
+Wire Wire Line
+	3050 8425 3050 8450
+Wire Wire Line
+	3050 8450 3150 8450
+Wire Wire Line
+	3150 8450 3150 8475
+Connection ~ 3050 8450
+Wire Wire Line
+	3050 8450 3050 8475
+Wire Wire Line
+	3325 8425 3325 8450
+Wire Wire Line
+	3325 8450 3425 8450
+Wire Wire Line
+	3425 8450 3425 8475
+Connection ~ 3325 8450
+Wire Wire Line
+	3325 8450 3325 8475
+Wire Wire Line
+	3600 8425 3600 8475
+Wire Wire Line
+	3875 8425 3875 8475
+Wire Wire Line
+	4150 8425 4150 8475
+Wire Wire Line
+	4425 8425 4425 8475
+Wire Wire Line
+	4700 8425 4700 8475
+Wire Wire Line
+	4700 7750 4700 7800
+Wire Wire Line
+	4425 7750 4425 7800
+Wire Wire Line
+	4150 7750 4150 7800
+Wire Wire Line
+	3875 7750 3875 7800
+Wire Wire Line
+	3600 7750 3600 7800
+Wire Wire Line
+	3325 7750 3325 7800
+Wire Wire Line
+	3050 7750 3050 7800
+Wire Wire Line
+	2775 7750 2775 7800
+Wire Wire Line
+	2500 7750 2500 7800
+Wire Wire Line
+	2225 7750 2225 7800
+Wire Wire Line
+	1950 7750 1950 7800
+Wire Wire Line
+	1675 7800 1675 7750
+Wire Wire Line
+	1675 7100 1675 7050
+Wire Wire Line
+	1950 7100 1950 7050
+Wire Wire Line
+	2225 7050 2225 7100
+Wire Wire Line
+	2500 7050 2500 7100
+Wire Wire Line
+	2775 7050 2775 7100
+Wire Wire Line
+	3050 7050 3050 7100
+Wire Wire Line
+	3325 7050 3325 7100
+Wire Wire Line
+	3600 7050 3600 7100
+Wire Wire Line
+	3875 7050 3875 7100
+Wire Wire Line
+	4150 7050 4150 7100
+Wire Wire Line
+	4425 7050 4425 7100
+Wire Wire Line
+	4700 7050 4700 7100
+Wire Wire Line
+	4700 8225 4425 8225
+Wire Wire Line
+	1500 8225 1500 7550
+Wire Wire Line
+	1500 6175 1675 6175
+Connection ~ 1675 8225
+Wire Wire Line
+	1675 8225 1500 8225
+Connection ~ 1950 8225
+Wire Wire Line
+	1950 8225 1675 8225
+Connection ~ 2225 8225
+Wire Wire Line
+	2225 8225 1950 8225
+Connection ~ 2500 8225
+Wire Wire Line
+	2500 8225 2225 8225
+Connection ~ 2775 8225
+Wire Wire Line
+	2775 8225 2500 8225
+Connection ~ 3050 8225
+Wire Wire Line
+	3050 8225 2775 8225
+Connection ~ 3325 8225
+Wire Wire Line
+	3325 8225 3050 8225
+Connection ~ 3600 8225
+Wire Wire Line
+	3600 8225 3325 8225
+Connection ~ 3875 8225
+Wire Wire Line
+	3875 8225 3600 8225
+Connection ~ 4150 8225
+Wire Wire Line
+	4150 8225 3875 8225
+Connection ~ 4425 8225
+Wire Wire Line
+	4425 8225 4150 8225
+Connection ~ 1675 6175
+Wire Wire Line
+	1675 6175 1950 6175
+Connection ~ 1950 6175
+Wire Wire Line
+	1950 6175 2225 6175
+Connection ~ 2225 6175
+Wire Wire Line
+	2225 6175 2500 6175
+Connection ~ 2500 6175
+Wire Wire Line
+	2500 6175 2775 6175
+Connection ~ 2775 6175
+Wire Wire Line
+	2775 6175 3050 6175
+Connection ~ 3050 6175
+Wire Wire Line
+	3050 6175 3325 6175
+Connection ~ 3325 6175
+Wire Wire Line
+	3325 6175 3600 6175
+Connection ~ 3600 6175
+Wire Wire Line
+	3600 6175 3875 6175
+Connection ~ 3875 6175
+Wire Wire Line
+	3875 6175 4150 6175
+Connection ~ 4150 6175
+Wire Wire Line
+	4150 6175 4425 6175
+Connection ~ 4425 6175
+Wire Wire Line
+	4425 6175 4700 6175
+Wire Wire Line
+	4700 6850 4425 6850
+Connection ~ 1500 6850
+Wire Wire Line
+	1500 6850 1500 6175
+Connection ~ 1675 6850
+Wire Wire Line
+	1675 6850 1500 6850
+Connection ~ 1950 6850
+Wire Wire Line
+	1950 6850 1675 6850
+Connection ~ 2225 6850
+Wire Wire Line
+	2225 6850 1950 6850
+Connection ~ 2500 6850
+Wire Wire Line
+	2500 6850 2225 6850
+Connection ~ 2775 6850
+Wire Wire Line
+	2775 6850 2500 6850
+Connection ~ 3050 6850
+Wire Wire Line
+	3050 6850 2775 6850
+Connection ~ 3325 6850
+Wire Wire Line
+	3325 6850 3050 6850
+Connection ~ 3600 6850
+Wire Wire Line
+	3600 6850 3325 6850
+Connection ~ 3875 6850
+Wire Wire Line
+	3875 6850 3600 6850
+Connection ~ 4150 6850
+Wire Wire Line
+	4150 6850 3875 6850
+Connection ~ 4425 6850
+Wire Wire Line
+	4425 6850 4150 6850
+Wire Wire Line
+	4700 7550 4425 7550
+Connection ~ 1500 7550
+Wire Wire Line
+	1500 7550 1500 6850
+Connection ~ 1675 7550
+Wire Wire Line
+	1675 7550 1500 7550
+Connection ~ 1950 7550
+Wire Wire Line
+	1950 7550 1675 7550
+Connection ~ 2225 7550
+Wire Wire Line
+	2225 7550 1950 7550
+Connection ~ 2500 7550
+Wire Wire Line
+	2500 7550 2225 7550
+Connection ~ 2775 7550
+Wire Wire Line
+	2775 7550 2500 7550
+Connection ~ 3050 7550
+Wire Wire Line
+	3050 7550 2775 7550
+Connection ~ 3325 7550
+Wire Wire Line
+	3325 7550 3050 7550
+Connection ~ 3600 7550
+Wire Wire Line
+	3600 7550 3325 7550
+Connection ~ 3875 7550
+Wire Wire Line
+	3875 7550 3600 7550
+Connection ~ 4150 7550
+Wire Wire Line
+	4150 7550 3875 7550
+Connection ~ 4425 7550
+Wire Wire Line
+	4425 7550 4150 7550
+Connection ~ 1500 6175
+Wire Wire Line
+	1675 9175 1675 9350
+Wire Wire Line
+	1350 9350 1675 9350
+Wire Wire Line
+	1350 9250 1350 9350
+Connection ~ 1675 9350
+Wire Wire Line
+	1675 9350 1675 9450
+$Comp
+L Keyboard_switches:LED LED1
+U 1 1 5D1EBF5B
+P 1675 6525
+F 0 "LED1" V 1550 6550 20  0000 L CNN
+F 1 "LED" V 1525 6550 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 1675 6525 50  0001 C CNN
+F 3 "" H 1675 6525 50  0001 C CNN
+	1    1675 6525
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED2
+U 1 1 5D4ECDE0
+P 1950 6525
+F 0 "LED2" V 1825 6550 20  0000 L CNN
+F 1 "LED" V 1800 6550 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 1950 6525 50  0001 C CNN
+F 3 "" H 1950 6525 50  0001 C CNN
+	1    1950 6525
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED3
+U 1 1 5D4ED356
+P 2225 6525
+F 0 "LED3" V 2100 6550 20  0000 L CNN
+F 1 "LED" V 2075 6550 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 2225 6525 50  0001 C CNN
+F 3 "" H 2225 6525 50  0001 C CNN
+	1    2225 6525
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED4
+U 1 1 5D4ED9B7
+P 2500 6525
+F 0 "LED4" V 2375 6550 20  0000 L CNN
+F 1 "LED" V 2350 6550 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 2500 6525 50  0001 C CNN
+F 3 "" H 2500 6525 50  0001 C CNN
+	1    2500 6525
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED5
+U 1 1 5D4EE32F
+P 2775 6525
+F 0 "LED5" V 2650 6550 20  0000 L CNN
+F 1 "LED" V 2625 6550 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 2775 6525 50  0001 C CNN
+F 3 "" H 2775 6525 50  0001 C CNN
+	1    2775 6525
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED6
+U 1 1 5D4EE336
+P 3050 6525
+F 0 "LED6" V 2925 6550 20  0000 L CNN
+F 1 "LED" V 2900 6550 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3050 6525 50  0001 C CNN
+F 3 "" H 3050 6525 50  0001 C CNN
+	1    3050 6525
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED7
+U 1 1 5D4EE33D
+P 3325 6525
+F 0 "LED7" V 3200 6550 20  0000 L CNN
+F 1 "LED" V 3175 6550 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3325 6525 50  0001 C CNN
+F 3 "" H 3325 6525 50  0001 C CNN
+	1    3325 6525
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED8
+U 1 1 5D4EE344
+P 3600 6525
+F 0 "LED8" V 3475 6550 20  0000 L CNN
+F 1 "LED" V 3450 6550 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3600 6525 50  0001 C CNN
+F 3 "" H 3600 6525 50  0001 C CNN
+	1    3600 6525
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED9
+U 1 1 5D533C76
+P 3875 6525
+F 0 "LED9" V 3750 6550 20  0000 L CNN
+F 1 "LED" V 3725 6550 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3875 6525 50  0001 C CNN
+F 3 "" H 3875 6525 50  0001 C CNN
+	1    3875 6525
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED10
+U 1 1 5D533C7D
+P 4150 6525
+F 0 "LED10" V 4025 6550 20  0000 L CNN
+F 1 "LED" V 4000 6550 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4150 6525 50  0001 C CNN
+F 3 "" H 4150 6525 50  0001 C CNN
+	1    4150 6525
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED11
+U 1 1 5D533C84
+P 4425 6525
+F 0 "LED11" V 4300 6550 20  0000 L CNN
+F 1 "LED" V 4275 6550 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4425 6525 50  0001 C CNN
+F 3 "" H 4425 6525 50  0001 C CNN
+	1    4425 6525
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED12
+U 1 1 5D533C8B
+P 4700 6525
+F 0 "LED12" V 4575 6550 20  0000 L CNN
+F 1 "LED" V 4550 6550 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4700 6525 50  0001 C CNN
+F 3 "" H 4700 6525 50  0001 C CNN
+	1    4700 6525
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1675 6675 1950 6675
+Connection ~ 1950 6675
+Wire Wire Line
+	1950 6675 2225 6675
+Connection ~ 2225 6675
+Wire Wire Line
+	2225 6675 2500 6675
+Connection ~ 2500 6675
+Wire Wire Line
+	2500 6675 2775 6675
+Connection ~ 2775 6675
+Wire Wire Line
+	2775 6675 3050 6675
+Connection ~ 3050 6675
+Wire Wire Line
+	3050 6675 3325 6675
+Connection ~ 3325 6675
+Wire Wire Line
+	3325 6675 3600 6675
+Connection ~ 3600 6675
+Wire Wire Line
+	3600 6675 3875 6675
+Connection ~ 3875 6675
+Wire Wire Line
+	3875 6675 4150 6675
+Connection ~ 4150 6675
+Wire Wire Line
+	4150 6675 4425 6675
+Connection ~ 4425 6675
+Wire Wire Line
+	4425 6675 4700 6675
+Connection ~ 4700 6675
+Wire Wire Line
+	4700 6675 4975 6675
+$Comp
+L Keyboard_switches:LED LED13
+U 1 1 5D93FD83
+P 1675 7250
+F 0 "LED13" V 1550 7275 20  0000 L CNN
+F 1 "LED" V 1525 7275 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 1675 7250 50  0001 C CNN
+F 3 "" H 1675 7250 50  0001 C CNN
+	1    1675 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED14
+U 1 1 5D93FD8A
+P 1950 7250
+F 0 "LED14" V 1825 7275 20  0000 L CNN
+F 1 "LED" V 1800 7275 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 1950 7250 50  0001 C CNN
+F 3 "" H 1950 7250 50  0001 C CNN
+	1    1950 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED15
+U 1 1 5D93FD91
+P 2225 7250
+F 0 "LED15" V 2100 7275 20  0000 L CNN
+F 1 "LED" V 2075 7275 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 2225 7250 50  0001 C CNN
+F 3 "" H 2225 7250 50  0001 C CNN
+	1    2225 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED16
+U 1 1 5D93FD98
+P 2500 7250
+F 0 "LED16" V 2375 7275 20  0000 L CNN
+F 1 "LED" V 2350 7275 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 2500 7250 50  0001 C CNN
+F 3 "" H 2500 7250 50  0001 C CNN
+	1    2500 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED17
+U 1 1 5D93FD9F
+P 2775 7250
+F 0 "LED17" V 2650 7275 20  0000 L CNN
+F 1 "LED" V 2625 7275 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 2775 7250 50  0001 C CNN
+F 3 "" H 2775 7250 50  0001 C CNN
+	1    2775 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED18
+U 1 1 5D93FDA6
+P 3050 7250
+F 0 "LED18" V 2925 7275 20  0000 L CNN
+F 1 "LED" V 2900 7275 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3050 7250 50  0001 C CNN
+F 3 "" H 3050 7250 50  0001 C CNN
+	1    3050 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED19
+U 1 1 5D93FDAD
+P 3325 7250
+F 0 "LED19" V 3200 7275 20  0000 L CNN
+F 1 "LED" V 3175 7275 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3325 7250 50  0001 C CNN
+F 3 "" H 3325 7250 50  0001 C CNN
+	1    3325 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED20
+U 1 1 5D93FDB4
+P 3600 7250
+F 0 "LED20" V 3475 7275 20  0000 L CNN
+F 1 "LED" V 3450 7275 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3600 7250 50  0001 C CNN
+F 3 "" H 3600 7250 50  0001 C CNN
+	1    3600 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED21
+U 1 1 5D93FDBB
+P 3875 7250
+F 0 "LED21" V 3750 7275 20  0000 L CNN
+F 1 "LED" V 3725 7275 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3875 7250 50  0001 C CNN
+F 3 "" H 3875 7250 50  0001 C CNN
+	1    3875 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED22
+U 1 1 5D93FDC2
+P 4150 7250
+F 0 "LED22" V 4025 7275 20  0000 L CNN
+F 1 "LED" V 4000 7275 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4150 7250 50  0001 C CNN
+F 3 "" H 4150 7250 50  0001 C CNN
+	1    4150 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED23
+U 1 1 5D93FDC9
+P 4425 7250
+F 0 "LED23" V 4300 7275 20  0000 L CNN
+F 1 "LED" V 4275 7275 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4425 7250 50  0001 C CNN
+F 3 "" H 4425 7250 50  0001 C CNN
+	1    4425 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED24
+U 1 1 5D93FDD0
+P 4700 7250
+F 0 "LED24" V 4575 7275 20  0000 L CNN
+F 1 "LED" V 4550 7275 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4700 7250 50  0001 C CNN
+F 3 "" H 4700 7250 50  0001 C CNN
+	1    4700 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED25
+U 1 1 5DABCF34
+P 1675 7950
+F 0 "LED25" V 1550 7975 20  0000 L CNN
+F 1 "LED" V 1525 7975 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 1675 7950 50  0001 C CNN
+F 3 "" H 1675 7950 50  0001 C CNN
+	1    1675 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED26
+U 1 1 5DABCF3B
+P 1950 7950
+F 0 "LED26" V 1825 7975 20  0000 L CNN
+F 1 "LED" V 1800 7975 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 1950 7950 50  0001 C CNN
+F 3 "" H 1950 7950 50  0001 C CNN
+	1    1950 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED27
+U 1 1 5DABCF42
+P 2225 7950
+F 0 "LED27" V 2100 7975 20  0000 L CNN
+F 1 "LED" V 2075 7975 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 2225 7950 50  0001 C CNN
+F 3 "" H 2225 7950 50  0001 C CNN
+	1    2225 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED28
+U 1 1 5DABCF49
+P 2500 7950
+F 0 "LED28" V 2375 7975 20  0000 L CNN
+F 1 "LED" V 2350 7975 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 2500 7950 50  0001 C CNN
+F 3 "" H 2500 7950 50  0001 C CNN
+	1    2500 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED29
+U 1 1 5DABCF50
+P 2775 7950
+F 0 "LED29" V 2650 7975 20  0000 L CNN
+F 1 "LED" V 2625 7975 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 2775 7950 50  0001 C CNN
+F 3 "" H 2775 7950 50  0001 C CNN
+	1    2775 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED30
+U 1 1 5DABCF57
+P 3050 7950
+F 0 "LED30" V 2925 7975 20  0000 L CNN
+F 1 "LED" V 2900 7975 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3050 7950 50  0001 C CNN
+F 3 "" H 3050 7950 50  0001 C CNN
+	1    3050 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED31
+U 1 1 5DABCF5E
+P 3325 7950
+F 0 "LED31" V 3200 7975 20  0000 L CNN
+F 1 "LED" V 3175 7975 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3325 7950 50  0001 C CNN
+F 3 "" H 3325 7950 50  0001 C CNN
+	1    3325 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED32
+U 1 1 5DABCF65
+P 3600 7950
+F 0 "LED32" V 3475 7975 20  0000 L CNN
+F 1 "LED" V 3450 7975 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3600 7950 50  0001 C CNN
+F 3 "" H 3600 7950 50  0001 C CNN
+	1    3600 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED33
+U 1 1 5DABCF6C
+P 3875 7950
+F 0 "LED33" V 3750 7975 20  0000 L CNN
+F 1 "LED" V 3725 7975 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3875 7950 50  0001 C CNN
+F 3 "" H 3875 7950 50  0001 C CNN
+	1    3875 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED34
+U 1 1 5DABCF73
+P 4150 7950
+F 0 "LED34" V 4025 7975 20  0000 L CNN
+F 1 "LED" V 4000 7975 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4150 7950 50  0001 C CNN
+F 3 "" H 4150 7950 50  0001 C CNN
+	1    4150 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED35
+U 1 1 5DABCF7A
+P 4425 7950
+F 0 "LED35" V 4300 7975 20  0000 L CNN
+F 1 "LED" V 4275 7975 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4425 7950 50  0001 C CNN
+F 3 "" H 4425 7950 50  0001 C CNN
+	1    4425 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED36
+U 1 1 5DABCF81
+P 4700 7950
+F 0 "LED36" V 4575 7975 20  0000 L CNN
+F 1 "LED" V 4550 7975 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4700 7950 50  0001 C CNN
+F 3 "" H 4700 7950 50  0001 C CNN
+	1    4700 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED37
+U 1 1 5DAFB63A
+P 1675 8625
+F 0 "LED37" V 1550 8650 20  0000 L CNN
+F 1 "LED" V 1525 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 1675 8625 50  0001 C CNN
+F 3 "" H 1675 8625 50  0001 C CNN
+	1    1675 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED38
+U 1 1 5DAFB641
+P 1950 8625
+F 0 "LED38" V 1825 8650 20  0000 L CNN
+F 1 "LED" V 1800 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 1950 8625 50  0001 C CNN
+F 3 "" H 1950 8625 50  0001 C CNN
+	1    1950 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED39
+U 1 1 5DAFB648
+P 2225 8625
+F 0 "LED39" V 2100 8650 20  0000 L CNN
+F 1 "LED" V 2075 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 2225 8625 50  0001 C CNN
+F 3 "" H 2225 8625 50  0001 C CNN
+	1    2225 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED40
+U 1 1 5DAFB64F
+P 2500 8625
+F 0 "LED40" V 2375 8650 20  0000 L CNN
+F 1 "LED" V 2350 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 2500 8625 50  0001 C CNN
+F 3 "" H 2500 8625 50  0001 C CNN
+	1    2500 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED41
+U 1 1 5DAFB656
+P 2775 8625
+F 0 "LED41" V 2650 8650 20  0000 L CNN
+F 1 "LED" V 2625 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 2775 8625 50  0001 C CNN
+F 3 "" H 2775 8625 50  0001 C CNN
+	1    2775 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED42
+U 1 1 5DAFB65D
+P 3050 8625
+F 0 "LED42" V 2925 8650 20  0000 L CNN
+F 1 "LED" V 2900 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3050 8625 50  0001 C CNN
+F 3 "" H 3050 8625 50  0001 C CNN
+	1    3050 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED43
+U 1 1 5DAFB664
+P 3325 8625
+F 0 "LED43" V 3200 8650 20  0000 L CNN
+F 1 "LED" V 3175 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3325 8625 50  0001 C CNN
+F 3 "" H 3325 8625 50  0001 C CNN
+	1    3325 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED44
+U 1 1 5DAFB66B
+P 3600 8625
+F 0 "LED44" V 3475 8650 20  0000 L CNN
+F 1 "LED" V 3450 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3600 8625 50  0001 C CNN
+F 3 "" H 3600 8625 50  0001 C CNN
+	1    3600 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED45
+U 1 1 5DAFB672
+P 3875 8625
+F 0 "LED45" V 3750 8650 20  0000 L CNN
+F 1 "LED" V 3725 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3875 8625 50  0001 C CNN
+F 3 "" H 3875 8625 50  0001 C CNN
+	1    3875 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED46
+U 1 1 5DAFB679
+P 4150 8625
+F 0 "LED46" V 4025 8650 20  0000 L CNN
+F 1 "LED" V 4000 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4150 8625 50  0001 C CNN
+F 3 "" H 4150 8625 50  0001 C CNN
+	1    4150 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED47
+U 1 1 5DAFB680
+P 4425 8625
+F 0 "LED47" V 4300 8650 20  0000 L CNN
+F 1 "LED" V 4275 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4425 8625 50  0001 C CNN
+F 3 "" H 4425 8625 50  0001 C CNN
+	1    4425 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L Keyboard_switches:LED LED48
+U 1 1 5DAFB687
+P 4700 8625
+F 0 "LED48" V 4575 8650 20  0000 L CNN
+F 1 "LED" V 4550 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 4700 8625 50  0001 C CNN
+F 3 "" H 4700 8625 50  0001 C CNN
+	1    4700 8625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4975 8775 4700 8775
+Wire Wire Line
+	4975 6675 4975 7400
+Connection ~ 1950 8775
+Wire Wire Line
+	1950 8775 1675 8775
+Connection ~ 2225 8775
+Wire Wire Line
+	2225 8775 1950 8775
+Connection ~ 2500 8775
+Wire Wire Line
+	2500 8775 2225 8775
+Connection ~ 2775 8775
+Wire Wire Line
+	2775 8775 2500 8775
+Connection ~ 3050 8775
+Wire Wire Line
+	3050 8775 2875 8775
+Connection ~ 3325 8775
+Wire Wire Line
+	3325 8775 3150 8775
+Connection ~ 3600 8775
+Wire Wire Line
+	3600 8775 3425 8775
+Connection ~ 3875 8775
+Wire Wire Line
+	3875 8775 3600 8775
+Connection ~ 4150 8775
+Wire Wire Line
+	4150 8775 3875 8775
+Connection ~ 4425 8775
+Wire Wire Line
+	4425 8775 4150 8775
+Connection ~ 4700 8775
+Wire Wire Line
+	4700 8775 4425 8775
+Wire Wire Line
+	4975 8100 4700 8100
+Connection ~ 4975 8100
+Wire Wire Line
+	4975 8100 4975 8775
+Connection ~ 1950 8100
+Wire Wire Line
+	1950 8100 1675 8100
+Connection ~ 2225 8100
+Wire Wire Line
+	2225 8100 1950 8100
+Connection ~ 2500 8100
+Wire Wire Line
+	2500 8100 2225 8100
+Connection ~ 2775 8100
+Wire Wire Line
+	2775 8100 2500 8100
+Connection ~ 3050 8100
+Wire Wire Line
+	3050 8100 2775 8100
+Connection ~ 3325 8100
+Wire Wire Line
+	3325 8100 3050 8100
+Connection ~ 3600 8100
+Wire Wire Line
+	3600 8100 3325 8100
+Connection ~ 3875 8100
+Wire Wire Line
+	3875 8100 3600 8100
+Connection ~ 4150 8100
+Wire Wire Line
+	4150 8100 3875 8100
+Connection ~ 4425 8100
+Wire Wire Line
+	4425 8100 4150 8100
+Connection ~ 4700 8100
+Wire Wire Line
+	4700 8100 4425 8100
+Wire Wire Line
+	1675 7400 1950 7400
+Connection ~ 4975 7400
+Wire Wire Line
+	4975 7400 4975 8100
+Connection ~ 1950 7400
+Wire Wire Line
+	1950 7400 2225 7400
+Connection ~ 2225 7400
+Wire Wire Line
+	2225 7400 2500 7400
+Connection ~ 2500 7400
+Wire Wire Line
+	2500 7400 2775 7400
+Connection ~ 2775 7400
+Wire Wire Line
+	2775 7400 3050 7400
+Connection ~ 3050 7400
+Wire Wire Line
+	3050 7400 3325 7400
+Connection ~ 3325 7400
+Wire Wire Line
+	3325 7400 3600 7400
+Connection ~ 3600 7400
+Wire Wire Line
+	3600 7400 3875 7400
+Connection ~ 3875 7400
+Wire Wire Line
+	3875 7400 4150 7400
+Connection ~ 4150 7400
+Wire Wire Line
+	4150 7400 4425 7400
+Connection ~ 4425 7400
+Wire Wire Line
+	4425 7400 4700 7400
+Connection ~ 4700 7400
+Wire Wire Line
+	4700 7400 4975 7400
+$Comp
+L Keyboard_switches:LED LED49
+U 1 1 5DD1C8D4
+P 2875 8625
+F 0 "LED49" V 2750 8650 20  0000 L CNN
+F 1 "LED" V 2725 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 2875 8625 50  0001 C CNN
+F 3 "" H 2875 8625 50  0001 C CNN
+	1    2875 8625
+	0    1    1    0   
+$EndComp
+Connection ~ 2875 8775
+Wire Wire Line
+	2875 8775 2775 8775
+$Comp
+L Keyboard_switches:LED LED50
+U 1 1 5DD1CD7B
+P 3150 8625
+F 0 "LED50" V 3025 8650 20  0000 L CNN
+F 1 "LED" V 3000 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3150 8625 50  0001 C CNN
+F 3 "" H 3150 8625 50  0001 C CNN
+	1    3150 8625
+	0    1    1    0   
+$EndComp
+Connection ~ 3150 8775
+Wire Wire Line
+	3150 8775 3050 8775
+$Comp
+L Keyboard_switches:LED LED51
+U 1 1 5DD1D242
+P 3425 8625
+F 0 "LED51" V 3300 8650 20  0000 L CNN
+F 1 "LED" V 3275 8650 20  0001 L CNN
+F 2 "Keyboard_switches:thtLED" H 3425 8625 50  0001 C CNN
+F 3 "" H 3425 8625 50  0001 C CNN
+	1    3425 8625
+	0    1    1    0   
+$EndComp
+Connection ~ 3425 8775
+Wire Wire Line
+	3425 8775 3325 8775
+$Comp
+L Keyboard_switches:AO4406AL Q1
+U 1 1 5DDB1E0B
+P 1675 8975
+F 0 "Q1" H 1781 8997 50  0000 L CNN
+F 1 "AO4406AL" H 1781 8930 20  0000 L CNN
+F 2 "Keyboard_switches:AO4406AL" H 1675 8975 50  0001 C CNN
+F 3 "" H 1675 8975 50  0001 C CNN
+	1    1675 8975
+	1    0    0    -1  
+$EndComp
+Connection ~ 1675 8775
+Text Notes 6300 6850 0    50   ~ 0
+ESD Protection
+$Comp
+L Mechanical:MountingHole L1
+U 1 1 5C54F135
+P 14625 3525
+F 0 "L1" H 14725 3571 50  0000 L CNN
+F 1 "Logo" H 14725 3480 50  0000 L CNN
+F 2 "sharkLogo:sharkLogo" H 14625 3525 50  0001 C CNN
+F 3 "~" H 14625 3525 50  0001 C CNN
+	1    14625 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CSin1
+U 1 1 5C44CEDC
+P 11075 7475
+F 0 "CSin1" V 11175 7475 39  0000 C CNN
+F 1 "100n" V 10975 7475 31  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11075 7475 50  0001 C CNN
+F 3 "~" H 11075 7475 50  0001 C CNN
+	1    11075 7475
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D DS1
+U 1 1 5C44EA7A
+P 11425 6650
+F 0 "DS1" V 11394 6729 31  0000 L CNN
+F 1 "1N4148" V 11456 6729 31  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11425 6650 50  0001 C CNN
+F 3 "~" H 11425 6650 50  0001 C CNN
+	1    11425 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CSout1
+U 1 1 5C44DAFA
+P 11775 7500
+F 0 "CSout1" V 11875 7500 39  0000 C CNN
+F 1 "100n" V 11650 7500 39  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11775 7500 50  0001 C CNN
+F 3 "~" H 11775 7500 50  0001 C CNN
+	1    11775 7500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11775 7125 11775 7400
+Wire Wire Line
+	11125 7125 11075 7125
+Wire Wire Line
+	11075 7125 11075 7375
+Connection ~ 11075 7125
+Wire Wire Line
+	11075 7125 11075 6650
+Wire Wire Line
+	10850 7125 11075 7125
+$Comp
+L Connector:USB_C_Receptacle J1
+U 1 1 5CC01BA3
+P 8525 7575
+F 0 "J1" H 8630 8842 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 8630 8751 50  0000 C CNN
+F 2 "USBconnector:TYPE-C-31-M-13" H 8675 7575 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 8675 7575 50  0001 C CNN
+	1    8525 7575
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9125 8875
+NoConn ~ 9125 8775
+NoConn ~ 9125 8575
+NoConn ~ 9125 8475
+NoConn ~ 9125 8275
+NoConn ~ 9125 8175
+NoConn ~ 9125 7975
+NoConn ~ 9125 7875
+NoConn ~ 9125 7675
+NoConn ~ 9125 7575
+Wire Wire Line
+	9125 6775 9200 6775
+Wire Wire Line
+	9125 6875 9200 6875
+Wire Wire Line
+	9200 6875 9200 6775
+Connection ~ 9200 6775
+$Comp
+L power:GND #PWR0102
+U 1 1 5D13D9BC
+P 9600 6775
+F 0 "#PWR0102" H 9600 6525 50  0001 C CNN
+F 1 "GND" V 9625 6825 31  0000 R CNN
+F 2 "" H 9600 6775 50  0001 C CNN
+F 3 "" H 9600 6775 50  0001 C CNN
+	1    9600 6775
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9650 7075 2    50   BiDi ~ 0
+D-
+Text GLabel 9650 7275 2    50   BiDi ~ 0
+D+
+Wire Wire Line
+	9125 7075 9200 7075
+Wire Wire Line
+	9125 7175 9200 7175
+Wire Wire Line
+	9200 7175 9200 7075
+Wire Wire Line
+	9125 7375 9200 7375
+Wire Wire Line
+	9200 7375 9200 7275
+Wire Wire Line
+	9200 7275 9125 7275
+Text GLabel 12075 7125 2    50   Output ~ 0
+3.3V
+Text GLabel 13075 7325 0    50   BiDi ~ 0
+D+
+Text GLabel 13075 7225 0    50   BiDi ~ 0
+D-
+Wire Wire Line
+	13075 7325 13125 7325
+Wire Wire Line
+	13075 7225 13125 7225
+$Comp
+L Regulator_Linear:MCP1700-3302E_SOT23 U2
+U 1 1 5D83639E
+P 11425 7125
+F 0 "U2" H 11425 7323 31  0000 C CNN
+F 1 "MCP1700-3302E_SOT23" H 11425 7261 31  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 11425 7350 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf" H 11425 7125 50  0001 C CNN
+	1    11425 7125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11075 7575 11075 7725
+Wire Wire Line
+	11775 7725 11775 7600
+Wire Wire Line
+	11425 7425 11425 7725
+Connection ~ 11425 7725
+Wire Wire Line
+	11725 7125 11775 7125
+$Comp
+L power:GND #PWR0103
+U 1 1 5D9C16B4
+P 11425 7800
+F 0 "#PWR0103" H 11425 7550 50  0001 C CNN
+F 1 "GND" H 11430 7672 50  0000 R CNN
+F 2 "" H 11425 7800 50  0001 C CNN
+F 3 "" H 11425 7800 50  0001 C CNN
+	1    11425 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11425 7800 11425 7725
+$Comp
+L power:GND #PWR0104
+U 1 1 5DEE874F
+P 14225 9575
+F 0 "#PWR0104" H 14225 9325 50  0001 C CNN
+F 1 "GND" H 14230 9402 50  0000 C CNN
+F 2 "" H 14225 9575 50  0001 C CNN
+F 3 "" H 14225 9575 50  0001 C CNN
+	1    14225 9575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13925 6025 13925 5975
+Wire Wire Line
+	13925 5975 14075 5975
+Wire Wire Line
+	14525 5975 14525 6025
+Wire Wire Line
+	14375 6025 14375 5975
+Connection ~ 14375 5975
+Wire Wire Line
+	14375 5975 14525 5975
+Wire Wire Line
+	14225 6025 14225 5975
+Connection ~ 14225 5975
+Wire Wire Line
+	14225 5975 14375 5975
+Wire Wire Line
+	14075 6025 14075 5975
+Connection ~ 14075 5975
+Wire Wire Line
+	14075 5975 14225 5975
+Wire Wire Line
+	14225 5850 14225 5975
+Text GLabel 14225 5850 1    50   Input ~ 0
+3.3V
+$Comp
+L Switch:SW_Push SWRST1
+U 1 1 5E070BED
+P 6075 8750
+F 0 "SWRST1" H 6075 8950 31  0000 C CNN
+F 1 "SW_Push" H 6075 8929 31  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithoutStem" H 6075 8950 50  0001 C CNN
+F 3 "" H 6075 8950 50  0001 C CNN
+	1    6075 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D DRST1
+U 1 1 5E071566
+P 6575 8750
+F 0 "DRST1" V 6544 8829 31  0000 L CNN
+F 1 "1N4148" V 6606 8829 31  0000 L CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6575 8750 50  0001 C CNN
+F 3 "~" H 6575 8750 50  0001 C CNN
+	1    6575 8750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small RRST1
+U 1 1 5E07225E
+P 6850 8950
+F 0 "RRST1" H 6700 8850 31  0000 L CNN
+F 1 "100k" V 6850 8900 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6850 8950 50  0001 C CNN
+F 3 "~" H 6850 8950 50  0001 C CNN
+	1    6850 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CRST1
+U 1 1 5E072855
+P 7000 8950
+F 0 "CRST1" H 6950 8875 31  0000 R CNN
+F 1 "4.7n" H 6975 9025 31  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 8950 50  0001 C CNN
+F 3 "~" H 7000 8950 50  0001 C CNN
+	1    7000 8950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small CSRT2
+U 1 1 5E0C1B45
+P 7000 8225
+F 0 "CSRT2" H 7200 8175 31  0000 R CNN
+F 1 "4.7n" H 7125 8300 31  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 8225 50  0001 C CNN
+F 3 "~" H 7000 8225 50  0001 C CNN
+	1    7000 8225
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5E65AF3C
+P 6100 8375
+F 0 "#PWR0106" H 6100 8125 50  0001 C CNN
+F 1 "GND" V 6105 8248 31  0000 R CNN
+F 2 "" H 6100 8375 50  0001 C CNN
+F 3 "" H 6100 8375 50  0001 C CNN
+	1    6100 8375
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5E65C8C3
+P 6850 9100
+F 0 "#PWR0109" H 6850 8850 50  0001 C CNN
+F 1 "GND" H 6855 8941 31  0000 C CNN
+F 2 "" H 6850 9100 50  0001 C CNN
+F 3 "" H 6850 9100 50  0001 C CNN
+	1    6850 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5E65CDAB
+P 7000 9100
+F 0 "#PWR0110" H 7000 8850 50  0001 C CNN
+F 1 "GND" H 7005 8941 31  0000 C CNN
+F 2 "" H 7000 9100 50  0001 C CNN
+F 3 "" H 7000 9100 50  0001 C CNN
+	1    7000 9100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 9100 7000 9050
+Wire Wire Line
+	6850 9100 6850 9050
+Wire Wire Line
+	6275 8750 6350 8750
+Wire Wire Line
+	6350 8675 6350 8750
+Connection ~ 6350 8750
+Wire Wire Line
+	6350 8750 6425 8750
+Wire Wire Line
+	6100 8375 6150 8375
+Wire Wire Line
+	6725 8750 6850 8750
+Wire Wire Line
+	7000 8750 7000 8850
+Connection ~ 7000 8750
+Wire Wire Line
+	7000 8750 7300 8750
+Wire Wire Line
+	6850 8750 6850 8850
+Connection ~ 6850 8750
+Wire Wire Line
+	6850 8750 7000 8750
+Wire Wire Line
+	7000 8325 7000 8375
+Connection ~ 7000 8375
+Wire Wire Line
+	7000 8375 7300 8375
+Wire Wire Line
+	7000 8125 7000 8075
+$Comp
+L power:GND #PWR0111
+U 1 1 5EA2B7B0
+P 7000 8075
+F 0 "#PWR0111" H 7000 7825 50  0001 C CNN
+F 1 "GND" H 7005 7916 31  0000 C CNN
+F 2 "" H 7000 8075 50  0001 C CNN
+F 3 "" H 7000 8075 50  0001 C CNN
+	1    7000 8075
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small RCC1
+U 1 1 5EA2CF13
+P 9450 6775
+F 0 "RCC1" V 9375 6750 31  0000 L CNN
+F 1 "5.1k" V 9450 6725 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9450 6775 50  0001 C CNN
+F 3 "~" H 9450 6775 50  0001 C CNN
+	1    9450 6775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9550 6775 9600 6775
+Connection ~ 9200 7075
+Wire Wire Line
+	9200 6775 9350 6775
+Connection ~ 9200 7275
+$Comp
+L Device:C_Small CVBus1
+U 1 1 5ED231C7
+P 10500 8775
+F 0 "CVBus1" H 10592 8806 31  0000 L CNN
+F 1 "100n" H 10592 8744 31  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10500 8775 50  0001 C CNN
+F 3 "~" H 10500 8775 50  0001 C CNN
+	1    10500 8775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CVBus2
+U 1 1 5ED24D83
+P 10850 8775
+F 0 "CVBus2" H 10942 8806 31  0000 L CNN
+F 1 "100n" H 10942 8744 31  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10850 8775 50  0001 C CNN
+F 3 "~" H 10850 8775 50  0001 C CNN
+	1    10850 8775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CVBus3
+U 1 1 5ED24FA7
+P 11200 8775
+F 0 "CVBus3" H 11292 8806 31  0000 L CNN
+F 1 "100n" H 11292 8744 31  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11200 8775 50  0001 C CNN
+F 3 "~" H 11200 8775 50  0001 C CNN
+	1    11200 8775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CVBus4
+U 1 1 5ED251CF
+P 11550 8775
+F 0 "CVBus4" H 11642 8806 31  0000 L CNN
+F 1 "1u" H 11642 8744 31  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11550 8775 50  0001 C CNN
+F 3 "~" H 11550 8775 50  0001 C CNN
+	1    11550 8775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CVBus5
+U 1 1 5ED253F3
+P 11900 8775
+F 0 "CVBus5" H 11992 8806 31  0000 L CNN
+F 1 "4.7u" H 11992 8744 31  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11900 8775 50  0001 C CNN
+F 3 "~" H 11900 8775 50  0001 C CNN
+	1    11900 8775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 8875 10500 8950
+Wire Wire Line
+	10500 8950 10850 8950
+Wire Wire Line
+	11900 8950 11900 8875
+Wire Wire Line
+	11900 8675 11900 8600
+Wire Wire Line
+	11900 8600 11550 8600
+Wire Wire Line
+	10500 8600 10500 8675
+Wire Wire Line
+	10850 8600 10850 8675
+Wire Wire Line
+	10850 8875 10850 8950
+Connection ~ 10850 8600
+Wire Wire Line
+	10850 8600 10500 8600
+Connection ~ 10850 8950
+Wire Wire Line
+	10850 8950 11200 8950
+Wire Wire Line
+	11200 8600 11200 8675
+Wire Wire Line
+	11200 8875 11200 8950
+Connection ~ 11200 8600
+Wire Wire Line
+	11200 8600 10850 8600
+Connection ~ 11200 8950
+Wire Wire Line
+	11200 8950 11550 8950
+Wire Wire Line
+	11550 8600 11550 8675
+Wire Wire Line
+	11550 8875 11550 8950
+Connection ~ 11550 8600
+Wire Wire Line
+	11550 8600 11200 8600
+Connection ~ 11550 8950
+Wire Wire Line
+	11550 8950 11900 8950
+Text GLabel 11200 8525 1    50   BiDi ~ 0
+3.3V
+$Comp
+L power:GND #PWR0115
+U 1 1 5EED5F47
+P 11200 9000
+F 0 "#PWR0115" H 11200 8750 50  0001 C CNN
+F 1 "GND" V 11205 8872 50  0000 R CNN
+F 2 "" H 11200 9000 50  0001 C CNN
+F 3 "" H 11200 9000 50  0001 C CNN
+	1    11200 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 9000 11200 8950
+Wire Wire Line
+	11200 8600 11200 8525
+Wire Wire Line
+	6550 8375 7000 8375
+Text GLabel 7300 8375 2    50   Input ~ 0
+NRST
+Text GLabel 7300 8750 2    50   Output ~ 0
+BOOT0
+Text GLabel 13075 6425 0    50   Input ~ 0
+NRST
+Text GLabel 13075 6625 0    50   Input ~ 0
+BOOT0
+Wire Wire Line
+	13075 6425 13125 6425
+Wire Wire Line
+	13075 6625 13125 6625
+Wire Notes Line
+	7350 6450 7350 7625
+Wire Notes Line
+	7350 7625 6250 7625
+Wire Notes Line
+	6250 7625 6250 6450
+Wire Notes Line
+	6250 6450 7350 6450
+Wire Notes Line
+	5575 7825 7775 7825
+Wire Notes Line
+	7775 7825 7775 9350
+Wire Notes Line
+	7775 9350 5575 9350
+Wire Notes Line
+	5575 9350 5575 7825
+Text Notes 5725 8025 0    50   ~ 0
+Hard reset circuit
+Text GLabel 9575 6575 2    50   Output ~ 0
+VBUS
+Text GLabel 10450 7125 0    50   Input ~ 0
+VBUS
+Wire Wire Line
+	10450 7125 10500 7125
+Wire Notes Line
+	10050 6350 12375 6350
+Wire Notes Line
+	12375 6350 12375 8125
+Wire Notes Line
+	12375 8125 10050 8125
+Wire Notes Line
+	10050 8125 10050 6350
+Text Notes 10100 8075 0    50   ~ 0
+Power supply and protection circuit
+Wire Wire Line
+	9125 6575 9575 6575
+Text GLabel 10850 7050 1    50   Output ~ 0
+5V
+Wire Wire Line
+	10850 7050 10850 7125
+Text GLabel 1500 6075 1    50   Input ~ 0
+5V
+Wire Wire Line
+	1500 6075 1500 6175
+Wire Notes Line
+	10350 8225 12225 8225
+Wire Notes Line
+	12225 8225 12225 9350
+Wire Notes Line
+	12225 9350 10350 9350
+Wire Notes Line
+	10350 9350 10350 8225
+Text Notes 10375 8300 0    50   ~ 0
+Voltage regulation capacitor bank\n
+Wire Wire Line
+	11575 6650 11775 6650
+Wire Wire Line
+	11075 6650 11275 6650
+Wire Wire Line
+	11775 7125 11775 6650
+Connection ~ 11775 7125
+Wire Wire Line
+	11425 7725 11775 7725
+Wire Wire Line
+	11775 7125 12075 7125
+Wire Wire Line
+	11425 7725 11075 7725
+Wire Wire Line
+	3125 9525 3175 9525
+Wire Wire Line
+	3775 9525 3825 9525
+Wire Wire Line
+	4425 9525 4475 9525
+Wire Wire Line
+	3125 10450 3175 10450
+Wire Wire Line
+	3775 10450 3825 10450
+Wire Wire Line
+	4425 10450 4475 10450
+Wire Wire Line
+	4775 10100 4775 10150
+Wire Wire Line
+	4125 10150 4125 10100
+Connection ~ 4125 10100
+Wire Wire Line
+	3475 10150 3475 10100
+Connection ~ 3475 10100
+Wire Wire Line
+	2825 10150 2825 10100
+Connection ~ 2825 10100
+Wire Wire Line
+	4775 9175 4775 9225
+Wire Wire Line
+	3475 9225 3475 9175
+Connection ~ 3475 9175
+Wire Wire Line
+	2825 9225 2825 9175
+Connection ~ 2825 9175
+$Comp
+L LED:WS2812B RGB1
+U 1 1 5CBC7203
+P 2825 9525
+F 0 "RGB1" H 2900 9825 31  0000 L CNN
+F 1 "WS2812B" H 2900 9775 31  0000 L CNN
+F 2 "Keyboard_switches:LED_WS2812B" H 2875 9225 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2925 9150 50  0001 L TNN
+	1    2825 9525
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB2
+U 1 1 5CBC9CDA
+P 3475 9525
+F 0 "RGB2" H 3550 9825 31  0000 L CNN
+F 1 "WS2812B" H 3550 9775 31  0000 L CNN
+F 2 "Keyboard_switches:LED_WS2812B" H 3525 9225 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3575 9150 50  0001 L TNN
+	1    3475 9525
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB3
+U 1 1 5CBC9F08
+P 4125 9525
+F 0 "RGB3" H 4200 9825 31  0000 L CNN
+F 1 "WS2812B" H 4200 9775 31  0000 L CNN
+F 2 "Keyboard_switches:LED_WS2812B" H 4175 9225 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4225 9150 50  0001 L TNN
+	1    4125 9525
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB4
+U 1 1 5CBCA148
+P 4775 9525
+F 0 "RGB4" H 4850 9825 31  0000 L CNN
+F 1 "WS2812B" H 4850 9775 31  0000 L CNN
+F 2 "Keyboard_switches:LED_WS2812B" H 4825 9225 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4875 9150 50  0001 L TNN
+	1    4775 9525
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB8
+U 1 1 5CBCA378
+P 4775 10450
+F 0 "RGB8" H 4850 10750 31  0000 L CNN
+F 1 "WS2812B" H 4850 10700 31  0000 L CNN
+F 2 "Keyboard_switches:LED_WS2812B" H 4825 10150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4875 10075 50  0001 L TNN
+	1    4775 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB7
+U 1 1 5CBCA5C2
+P 4125 10450
+F 0 "RGB7" H 4200 10750 31  0000 L CNN
+F 1 "WS2812B" H 4200 10700 31  0000 L CNN
+F 2 "Keyboard_switches:LED_WS2812B" H 4175 10150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4225 10075 50  0001 L TNN
+	1    4125 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB5
+U 1 1 5CBCAA20
+P 2825 10450
+F 0 "RGB5" H 2900 10750 31  0000 L CNN
+F 1 "WS2812B" H 2900 10700 31  0000 L CNN
+F 2 "Keyboard_switches:LED_WS2812B" H 2875 10150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2925 10075 50  0001 L TNN
+	1    2825 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB6
+U 1 1 5CBCA7EA
+P 3475 10450
+F 0 "RGB6" H 3550 10750 31  0000 L CNN
+F 1 "WS2812B" H 3550 10700 31  0000 L CNN
+F 2 "Keyboard_switches:LED_WS2812B" H 3525 10150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3575 10075 50  0001 L TNN
+	1    3475 10450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 10100 3475 10100
+Wire Wire Line
+	3475 10100 4125 10100
+Wire Wire Line
+	4125 10100 4775 10100
+Wire Wire Line
+	3475 9175 4125 9175
+Wire Wire Line
+	2825 9175 3475 9175
+Wire Wire Line
+	4125 9225 4125 9175
+Connection ~ 4125 9175
+Wire Wire Line
+	4125 9175 4775 9175
+Wire Wire Line
+	2825 9825 2825 9875
+Wire Wire Line
+	2825 9875 3475 9875
+Wire Wire Line
+	4775 9875 4775 9825
+Wire Wire Line
+	3475 9875 3475 9825
+Connection ~ 3475 9875
+Wire Wire Line
+	3475 9875 4125 9875
+Wire Wire Line
+	4125 9875 4125 9825
+Connection ~ 4125 9875
+Wire Wire Line
+	4125 9875 4775 9875
+Wire Wire Line
+	2825 10750 2825 10800
+Wire Wire Line
+	2825 10800 3475 10800
+Wire Wire Line
+	4775 10800 4775 10750
+Wire Wire Line
+	4125 10750 4125 10800
+Connection ~ 4125 10800
+Wire Wire Line
+	4125 10800 4775 10800
+Wire Wire Line
+	3475 10750 3475 10800
+Connection ~ 3475 10800
+Wire Wire Line
+	3475 10800 4125 10800
+Text GLabel 13050 7525 0    50   Output ~ 0
+LED_PWM
+Wire Wire Line
+	13050 7525 13125 7525
+Text GLabel 2825 9100 1    50   Input ~ 0
+5V
+Wire Wire Line
+	2825 9100 2825 9175
+$Comp
+L power:GND #PWR0117
+U 1 1 5CFFE512
+P 3475 10850
+F 0 "#PWR0117" H 3475 10600 50  0001 C CNN
+F 1 "GND" H 3425 10825 31  0000 C CNN
+F 2 "" H 3475 10850 50  0001 C CNN
+F 3 "" H 3475 10850 50  0001 C CNN
+	1    3475 10850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 10850 3475 10800
+$Comp
+L power:GND #PWR0118
+U 1 1 5D0596AC
+P 3475 9925
+F 0 "#PWR0118" H 3475 9675 50  0001 C CNN
+F 1 "GND" H 3425 9900 31  0000 C CNN
+F 2 "" H 3475 9925 50  0001 C CNN
+F 3 "" H 3475 9925 50  0001 C CNN
+	1    3475 9925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 9925 3475 9875
+Text GLabel 2825 10050 1    50   Input ~ 0
+5V
+Wire Wire Line
+	2825 10050 2825 10100
+Text GLabel 15375 8425 2    50   Output ~ 0
+RGB_PWM
+Text GLabel 2475 9525 0    50   Input ~ 0
+RGB_PWM
+Text GLabel 2475 10450 0    50   Input ~ 0
+RGB_PWM
+Wire Wire Line
+	2475 10450 2525 10450
+Wire Wire Line
+	2475 9525 2525 9525
+$Comp
+L Transistor_BJT:BC847 QRST1
+U 1 1 5D237915
+P 6350 8475
+F 0 "QRST1" V 6634 8475 31  0000 C CNN
+F 1 "BC847" V 6572 8475 31  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6550 8400 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 6350 8475 50  0001 L CNN
+	1    6350 8475
+	0    1    -1   0   
+$EndComp
+Wire Notes Line
+	7875 9150 8425 9150
+Wire Notes Line
+	8425 10125 7875 10125
+Text Notes 7900 10075 0    50   ~ 0
+Shield\nnet
+Wire Notes Line
+	8425 10125 8425 9150
+Wire Notes Line
+	7875 9150 7875 10125
+Text GLabel 5875 8750 0    50   Input ~ 0
+3.3V
+$Comp
+L Mechanical:MountingHole L2
+U 1 1 5C525928
+P 14625 3750
+F 0 "L2" H 14725 3796 50  0000 L CNN
+F 1 "LogoBack" H 14725 3705 50  0000 L CNN
+F 2 "sharkLogo:skark" H 14625 3750 50  0001 C CNN
+F 3 "~" H 14625 3750 50  0001 C CNN
+	1    14625 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 13050 7925 0    50   Input ~ 0
+Col2
+Wire Wire Line
+	13050 7925 13100 7925
+Text GLabel 13050 8025 0    50   Input ~ 0
+Col3
+Wire Wire Line
+	13050 8025 13100 8025
+Wire Wire Line
+	15375 8425 15275 8425
+Wire Wire Line
+	9200 7075 9375 7075
+Wire Wire Line
+	9650 7075 9575 7075
+Wire Wire Line
+	9200 7275 9375 7275
+Wire Wire Line
+	9575 7275 9650 7275
+$Comp
+L Device:R_Small RD-1
+U 1 1 5E5BA0B3
+P 9475 7075
+F 0 "RD-1" V 9400 7050 31  0000 L CNN
+F 1 "22R" V 9475 7025 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9475 7075 50  0001 C CNN
+F 3 "~" H 9475 7075 50  0001 C CNN
+	1    9475 7075
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small RD+1
+U 1 1 5E5BB8E0
+P 9475 7275
+F 0 "RD+1" V 9400 7250 31  0000 L CNN
+F 1 "22R" V 9475 7225 31  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9475 7275 50  0001 C CNN
+F 3 "~" H 9475 7275 50  0001 C CNN
+	1    9475 7275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14075 9475 14075 9525
+Wire Wire Line
+	14075 9525 14175 9525
+Wire Wire Line
+	14375 9525 14375 9475
+Wire Wire Line
+	14275 9475 14275 9525
+Connection ~ 14275 9525
+Wire Wire Line
+	14275 9525 14375 9525
+Wire Wire Line
+	14175 9475 14175 9525
+Connection ~ 14175 9525
+Wire Wire Line
+	14175 9525 14225 9525
+Wire Wire Line
+	14225 9525 14225 9575
+Connection ~ 14225 9525
+Wire Wire Line
+	14225 9525 14275 9525
+$Comp
+L stm32f072c8t6:STM32F072C8T6 U1
+U 1 1 5C74B89E
+P 14225 7725
+F 0 "U1" H 14200 7925 50  0000 C CNN
+F 1 "STM32F072C8T6" H 14200 7825 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 13475 6325 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00135027.pdf" H 14225 7725 50  0001 C CNN
+	1    14225 7725
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
