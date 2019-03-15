@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Acheron 60-SM-S-STM32-MX-TH-WI (Codename "ArcticPCB")
+=======
+# Acheron 60-SM-S-ATM32U4-MX-TH-WI (Codename "ArcticPCB")
+>>>>>>> 4b2cf3487cadcd099641378e918c7ee92587d039
 
 Table of Contents
 =================
@@ -25,7 +29,11 @@ Here's a list of the board's features:
 
 - RGB underglow through intelligent integrated controller WS2812B LEDs;
 
+<<<<<<< HEAD
 - Supports a few layouts;
+=======
+- Multi-layout support;
+>>>>>>> 4b2cf3487cadcd099641378e918c7ee92587d039
 
 - Hardware reset through a push button and reset network;
 
@@ -35,6 +43,11 @@ Here's a list of the board's features:
 
 Additionally, plate gerber files are also available so that the user can order them made from the same manufacturer as the PCBs and out of the same material (FR4, a fiberglass enhanced resin laminate). This makes production cheaper and faster.
 
+<<<<<<< HEAD
+=======
+There are four plate designs available: one for each supported layout and a universal one that supports all three of them.
+
+>>>>>>> 4b2cf3487cadcd099641378e918c7ee92587d039
 ## FAQ 
 
 <!-------------------------------------------------------------------->
@@ -150,21 +163,28 @@ To be disclosed.
 ## Changelog and version control
 
 <details>
+<<<<<<< HEAD
  <summary> <font size="+2"><b> 2019/01/12 (V0.1) </b></font></summary>
+=======
+ <summary> <font size="+2"><b> 2019/01/12 (V1.0) </b></font></summary>
+>>>>>>> 4b2cf3487cadcd099641378e918c7ee92587d039
  <p>
 
  <h6> Initial version commited. </h6>
 
 </p></details>
 
+<<<<<<< HEAD
 <details>
  <summary> <font size="+2"><b> 2019/01/12 (V0.1.1) </b></font></summary>
  <p>
 
- <h6> Added the dimensions of the PCB, together with mounting holes and connector. All dimensions and placements were based on the (GH60 PCB)[https://github.com/komar007/gh60] measurements. This version does not have any components in it and so can be used as canvas for any universal tray-mount 60% PCB. </h6>
+ <h6> Added the dimensions of the PCB, together with mounting holes and connector. All dimensions and placements were based on the [GH60 PCB](https://github.com/komar007/gh60) measurements. This version does not have any components in it and so can be used as canvas for any universal tray-mount 60% PCB. </h6>
 
 </p></details>
 
+=======
+>>>>>>> 4b2cf3487cadcd099641378e918c7ee92587d039
 
 ## Bill of Materials
 
@@ -226,8 +246,12 @@ If you don't want to order them from LCSC, the table below can be used.
 ## Acknowledgements
 
 Although there is only me actively working on the project design, some acknowledgements are due:
+<<<<<<< HEAD
   * Felipe "MrKeebs" Gonçalves and Raphael "ArcticFox" Hochheim. Dear friends and always up to help with my questions; MrKeebs was the proponent of this project and has my undying gratitude for believing in it and funding it with his own money.
-  * User (komnar007)[https://github.com/komar007]. His GH60 was a great inspiration for this, to the point that when I have any doubts about how to do a feature I will check on his project to see if it works. Truly a great user from this community and a breakthrough project. Thank you, komar.
+  * User [komnar007](https://github.com/komar007). His GH60 was a great inspiration for this, to the point that when I have any doubts about how to do a feature I will check on his project to see if it works. Truly a great user from this community and a breakthrough project. Thank you, komar.
+=======
+  * Felipe "MrKeebs" Gonçalves and Raphael "ArcticFox" Hochheim. Dear friends and always up to help with my questions; Arctic was an inspiration for this board with his MK knowledge.
+>>>>>>> 4b2cf3487cadcd099641378e918c7ee92587d039
 
 ## License
 
