@@ -163,18 +163,11 @@ To be disclosed.
 ## Changelog and version control
 
 <details>
-<<<<<<< HEAD
  <summary> <font size="+2"><b> 2019/01/12 (V0.1) </b></font></summary>
-=======
- <summary> <font size="+2"><b> 2019/01/12 (V1.0) </b></font></summary>
->>>>>>> 4b2cf3487cadcd099641378e918c7ee92587d039
- <p>
-
  <h6> Initial version commited. </h6>
 
 </p></details>
 
-<<<<<<< HEAD
 <details>
  <summary> <font size="+2"><b> 2019/01/12 (V0.1.1) </b></font></summary>
  <p>
@@ -182,9 +175,6 @@ To be disclosed.
  <h6> Added the dimensions of the PCB, together with mounting holes and connector. All dimensions and placements were based on the [GH60 PCB](https://github.com/komar007/gh60) measurements. This version does not have any components in it and so can be used as canvas for any universal tray-mount 60% PCB. </h6>
 
 </p></details>
-
-=======
->>>>>>> 4b2cf3487cadcd099641378e918c7ee92587d039
 
 ## Bill of Materials
 
