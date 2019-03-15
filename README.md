@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # Acheron 60-SM-S-STM32-MX-TH-WI (Codename "ArcticPCB")
-=======
-# Acheron 60-SM-S-ATM32U4-MX-TH-WI (Codename "ArcticPCB")
->>>>>>> 4b2cf3487cadcd099641378e918c7ee92587d039
 
 Table of Contents
 =================
@@ -29,11 +25,9 @@ Here's a list of the board's features:
 
 - RGB underglow through intelligent integrated controller WS2812B LEDs;
 
-<<<<<<< HEAD
 - Supports a few layouts;
-=======
+
 - Multi-layout support;
->>>>>>> 4b2cf3487cadcd099641378e918c7ee92587d039
 
 - Hardware reset through a push button and reset network;
 
@@ -41,13 +35,10 @@ Here's a list of the board's features:
 
 - Electrical Static Discharge (ESD) protection through a discharge net.
 
-Additionally, plate gerber files are also available so that the user can order them made from the same manufacturer as the PCBs and out of the same material (FR4, a fiberglass enhanced resin laminate). This makes production cheaper and faster.
+- Additionally, plate gerber files are also available so that the user can order them made from the same manufacturer as the PCBs and out of the same material (FR4, a fiberglass enhanced resin laminate). This makes production cheaper and faster.
 
-<<<<<<< HEAD
-=======
 There are four plate designs available: one for each supported layout and a universal one that supports all three of them.
 
->>>>>>> 4b2cf3487cadcd099641378e918c7ee92587d039
 ## FAQ 
 
 <!-------------------------------------------------------------------->
@@ -236,12 +227,8 @@ If you don't want to order them from LCSC, the table below can be used.
 ## Acknowledgements
 
 Although there is only me actively working on the project design, some acknowledgements are due:
-<<<<<<< HEAD
   * Felipe "MrKeebs" Gonçalves and Raphael "ArcticFox" Hochheim. Dear friends and always up to help with my questions; MrKeebs was the proponent of this project and has my undying gratitude for believing in it and funding it with his own money.
   * User [komnar007](https://github.com/komar007). His GH60 was a great inspiration for this, to the point that when I have any doubts about how to do a feature I will check on his project to see if it works. Truly a great user from this community and a breakthrough project. Thank you, komar.
-=======
-  * Felipe "MrKeebs" Gonçalves and Raphael "ArcticFox" Hochheim. Dear friends and always up to help with my questions; Arctic was an inspiration for this board with his MK knowledge.
->>>>>>> 4b2cf3487cadcd099641378e918c7ee92587d039
 
 ## License
 
