@@ -307,12 +307,12 @@ Wire Wire Line
 	13450 15725 13525 15725
 Wire Wire Line
 	13525 15225 13450 15225
-Text GLabel 13525 15425 2    50   Input ~ 0
+Text GLabel 13525 15325 2    50   Input ~ 0
 BOOT0
 Text GLabel 13525 15225 2    50   Input ~ 0
 NRST
 Wire Wire Line
-	13450 15425 13525 15425
+	13450 15325 13525 15325
 $Comp
 L Transistor_BJT:DTC123J QRST1
 U 1 1 5D249555
@@ -3113,8 +3113,8 @@ Connection ~ 15925 7450
 Wire Wire Line
 	15925 7450 16925 7450
 Wire Wire Line
-	13450 15325 13525 15325
-Text GLabel 13525 15325 2    50   Input ~ 0
+	13450 15425 13525 15425
+Text GLabel 13525 15425 2    50   Input ~ 0
 SWCLK
 $Comp
 L Connector:Conn_01x06_Male J5
