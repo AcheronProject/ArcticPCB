@@ -295,27 +295,16 @@ Wire Wire Line
 	21750 15900 21750 15950
 Text Notes 12725 14650 0    100  Italic 20
 Serial programming
-$Comp
-L power:GND #PWR0103
-U 1 1 5CFDFC6D
-P 13525 15725
-F 0 "#PWR0103" H 13525 15475 50  0001 C CNN
-F 1 "GND" V 13530 15597 50  0000 R CNN
-F 2 "" H 13525 15725 50  0001 C CNN
-F 3 "" H 13525 15725 50  0001 C CNN
-	1    13525 15725
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	13525 15525 13450 15525
 Text GLabel 13525 15525 2    50   Input ~ 0
 SWDIO
 Wire Wire Line
-	13450 15725 13525 15725
-Text GLabel 13525 15625 2    50   Input ~ 0
+	13450 15625 13525 15625
+Text GLabel 13525 15725 2    50   Input ~ 0
 3.3V
 Wire Wire Line
-	13450 15625 13525 15625
+	13450 15725 13525 15725
 Wire Wire Line
 	13525 15225 13450 15225
 Text GLabel 13525 15425 2    50   Input ~ 0
@@ -3139,29 +3128,14 @@ F 3 "~" H 13250 15425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad R1
-U 1 1 5D47CCB1
-P 5300 17250
-F 0 "R1" H 5400 17296 50  0000 L CNN
-F 1 "Oval Mounting Hole" H 5400 17205 50  0000 L CNN
-F 2 "arcticLogo:Rounded_Track_1.430mm_180deg" H 5300 17250 50  0001 C CNN
-F 3 "~" H 5300 17250 50  0001 C CNN
-	1    5300 17250
+L power:GND #PWR0103
+U 1 1 5CFDFC6D
+P 13525 15625
+F 0 "#PWR0103" H 13525 15375 50  0001 C CNN
+F 1 "GND" V 13530 15497 50  0000 R CNN
+F 2 "" H 13525 15625 50  0001 C CNN
+F 3 "" H 13525 15625 50  0001 C CNN
+	1    13525 15625
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Mechanical:MountingHole_Pad R2
-U 1 1 5D4E90B8
-P 5300 17500
-F 0 "R2" H 5400 17546 50  0000 L CNN
-F 1 "Oval Mounting Hole" H 5400 17455 50  0000 L CNN
-F 2 "arcticLogo:Rounded_Track_1.430mm_180deg" H 5300 17500 50  0001 C CNN
-F 3 "~" H 5300 17500 50  0001 C CNN
-	1    5300 17500
-	0    -1   -1   0   
-$EndComp
-Text GLabel 5400 17250 2    50   Input ~ 0
-Col7
-Text GLabel 5400 17500 2    50   Input ~ 0
-Col6
 $EndSCHEMATC
