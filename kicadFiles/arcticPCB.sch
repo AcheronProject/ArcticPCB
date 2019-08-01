@@ -1896,14 +1896,14 @@ F 3 "~" H 5250 19250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H8
+L Mechanical:MountingHole_Pad H8
 U 1 1 5E63D4E1
-P 5250 19500
-F 0 "H8" H 5350 19546 50  0000 L CNN
-F 1 "Oval Mounting Hole" H 5350 19455 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 5250 19500 50  0001 C CNN
-F 3 "~" H 5250 19500 50  0001 C CNN
-	1    5250 19500
+P 6450 18050
+F 0 "H8" H 6550 18096 50  0000 L CNN
+F 1 "Oval Mounting Hole" H 6550 18005 50  0000 L CNN
+F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 6450 18050 50  0001 C CNN
+F 3 "~" H 6450 18050 50  0001 C CNN
+	1    6450 18050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3214,4 +3214,82 @@ Text GLabel 20750 15900 1    50   Input ~ 0
 Row2
 Wire Wire Line
 	20750 15900 20750 15950
+$Comp
+L Device:R_Small RSH2
+U 1 1 5D45B6A0
+P 16200 15150
+F 0 "RSH2" H 16259 15181 31  0000 L CNN
+F 1 "1M" H 16259 15119 31  0000 L CNN
+F 2 "acheron_Components:R_SMD_1026" H 16200 15150 50  0001 C CNN
+F 3 "~" H 16200 15150 50  0001 C CNN
+	1    16200 15150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small CSH2
+U 1 1 5D45B6A6
+P 16075 15150
+F 0 "CSH2" V 16225 15150 31  0000 C CNN
+F 1 "4.7nF" V 16175 15150 31  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 16075 15150 50  0001 C CNN
+F 3 "~" H 16075 15150 50  0001 C CNN
+	1    16075 15150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	16200 15000 16200 15050
+Wire Wire Line
+	16075 15250 16075 15300
+Wire Wire Line
+	16075 15300 16200 15300
+Wire Wire Line
+	16200 15300 16200 15250
+Wire Wire Line
+	16200 15300 16200 15350
+Connection ~ 16200 15300
+$Comp
+L power:GND #PWR0111
+U 1 1 5D45B6B6
+P 16200 15350
+F 0 "#PWR0111" H 16200 15100 50  0001 C CNN
+F 1 "GND" H 16200 15225 31  0000 C CNN
+F 2 "" H 16200 15350 50  0001 C CNN
+F 3 "" H 16200 15350 50  0001 C CNN
+	1    16200 15350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D DSH1
+U 1 1 5D48318C
+P 15725 15000
+F 0 "DSH1" V 15694 15079 31  0000 L CNN
+F 1 "1N4007" V 15756 15079 31  0000 L CNN
+F 2 "acheron_Components:D_SOD-123" H 15725 15000 50  0001 C CNN
+F 3 "~" H 15725 15000 50  0001 C CNN
+	1    15725 15000
+	-1   0    0    1   
+$EndComp
+Text GLabel 15575 15000 0    50   Input ~ 0
+CASE
+Wire Notes Line width 20
+	15250 14500 16750 14500
+Wire Notes Line width 20
+	16750 14500 16750 16000
+Wire Notes Line width 20
+	16750 16000 15250 16000
+Wire Notes Line width 20
+	15250 14750 16750 14750
+Wire Notes Line width 20
+	15250 14500 15250 16000
+Text Notes 15600 14700 0    100  Italic 20
+Case ESD
+Wire Wire Line
+	15875 15000 16075 15000
+Wire Wire Line
+	16075 15050 16075 15000
+Connection ~ 16075 15000
+Wire Wire Line
+	16075 15000 16200 15000
+Text GLabel 6450 18150 3    50   Input ~ 0
+CASE
 $EndSCHEMATC
