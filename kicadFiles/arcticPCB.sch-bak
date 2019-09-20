@@ -265,12 +265,12 @@ Text GLabel 13275 17775 0    50   Input ~ 0
 $Comp
 L Mechanical:MountingHole L2
 U 1 1 5C66B5D5
-P 3000 14725
-F 0 "L2" H 3100 14771 50  0000 L CNN
-F 1 "OSHLogo" H 3100 14680 50  0000 L CNN
-F 2 "oshLogo:osh-logo" H 3000 14725 50  0001 C CNN
-F 3 "~" H 3000 14725 50  0001 C CNN
-	1    3000 14725
+P 2725 14525
+F 0 "L2" H 2825 14571 50  0000 L CNN
+F 1 "OSHLogo" H 2825 14480 50  0000 L CNN
+F 2 "oshLogo:osh-logo" H 2725 14525 50  0001 C CNN
+F 3 "~" H 2725 14525 50  0001 C CNN
+	1    2725 14525
 	1    0    0    -1  
 $EndComp
 Text Notes 2525 14275 0    100  ~ 20
@@ -298,11 +298,11 @@ Wire Wire Line
 Text GLabel 13525 15525 2    50   Input ~ 0
 SWDIO
 Wire Wire Line
-	13450 15625 13525 15625
-Text GLabel 13525 15725 2    50   Input ~ 0
+	13450 15725 13525 15725
+Text GLabel 13525 15625 2    50   Input ~ 0
 3.3V
 Wire Wire Line
-	13450 15725 13525 15725
+	13450 15625 13525 15625
 Wire Wire Line
 	13525 15225 13450 15225
 Text GLabel 13525 15325 2    50   Input ~ 0
@@ -856,12 +856,12 @@ $EndComp
 $Comp
 L Mechanical:MountingHole L1
 U 1 1 5D3B6D2E
-P 3000 15025
-F 0 "L1" H 3100 15071 50  0000 L CNN
-F 1 "ArcticLogo" H 3100 14980 50  0000 L CNN
-F 2 "arcticLogo:arcticLogoFilled" H 3000 15025 50  0001 C CNN
-F 3 "~" H 3000 15025 50  0001 C CNN
-	1    3000 15025
+P 2725 14825
+F 0 "L1" H 2825 14871 50  0000 L CNN
+F 1 "ArcticLogo" H 2825 14780 50  0000 L CNN
+F 2 "arcticLogo:arcticLogoFilled" H 2725 14825 50  0001 C CNN
+F 3 "~" H 2725 14825 50  0001 C CNN
+	1    2725 14825
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1092,12 +1092,12 @@ Wire Notes Line width 20
 $Comp
 L Mechanical:MountingHole L3
 U 1 1 5D430F2E
-P 3000 15300
-F 0 "L3" H 3100 15346 50  0000 L CNN
-F 1 "Acheron Logo" H 3100 15255 50  0000 L CNN
-F 2 "acheron_Logos:acheronLong" H 3000 15300 50  0001 C CNN
-F 3 "~" H 3000 15300 50  0001 C CNN
-	1    3000 15300
+P 2725 15100
+F 0 "L3" H 2825 15146 50  0000 L CNN
+F 1 "Acheron Logo" H 2825 15055 50  0000 L CNN
+F 2 "acheron_Logos:acheronLong" H 2725 15100 50  0001 C CNN
+F 3 "~" H 2725 15100 50  0001 C CNN
+	1    2725 15100
 	1    0    0    -1  
 $EndComp
 Text Notes 8850 12250 0    100  Italic 20
@@ -3119,12 +3119,12 @@ $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 5CFDFC6D
-P 13525 15625
-F 0 "#PWR0103" H 13525 15375 50  0001 C CNN
-F 1 "GND" V 13530 15497 50  0000 R CNN
-F 2 "" H 13525 15625 50  0001 C CNN
-F 3 "" H 13525 15625 50  0001 C CNN
-	1    13525 15625
+P 13525 15725
+F 0 "#PWR0103" H 13525 15475 50  0001 C CNN
+F 1 "GND" V 13530 15597 50  0000 R CNN
+F 2 "" H 13525 15725 50  0001 C CNN
+F 3 "" H 13525 15725 50  0001 C CNN
+	1    13525 15725
 	0    -1   -1   0   
 $EndComp
 Text GLabel 20425 19775 3    50   Input ~ 0
@@ -3362,4 +3362,26 @@ Wire Wire Line
 	21925 16200 21925 16275
 Wire Wire Line
 	22175 16200 22175 16275
+$Comp
+L Mechanical:MountingHole L?
+U 1 1 5D8978A5
+P 2725 15375
+F 0 "L?" H 2825 15421 50  0000 L CNN
+F 1 "ArcticLabel" H 2825 15330 50  0000 L CNN
+F 2 "arcticGraphics:arcticLabel" H 2725 15375 50  0001 C CNN
+F 3 "~" H 2725 15375 50  0001 C CNN
+	1    2725 15375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole L?
+U 1 1 5D8978AB
+P 2725 15650
+F 0 "L?" H 2825 15696 50  0000 L CNN
+F 1 "Acheron Logo" H 2825 15605 50  0000 L CNN
+F 2 "arcticGraphics:arcticLabelMask" H 2725 15650 50  0001 C CNN
+F 3 "~" H 2725 15650 50  0001 C CNN
+	1    2725 15650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
