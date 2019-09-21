@@ -290,23 +290,19 @@ Wire Wire Line
 Text Notes 8200 13225 0    100  Italic 20
 Serial programming
 Wire Wire Line
-	9000 14100 8925 14100
-Text GLabel 9000 14100 2    50   Input ~ 0
+	9600 11600 9525 11600
+Text GLabel 9600 11600 2    50   Input ~ 0
 SWDIO
 Wire Wire Line
-	8925 14300 9000 14300
-Text GLabel 9000 14200 2    50   Input ~ 0
+	9025 12200 9025 12275
+Text GLabel 9025 10925 1    50   Input ~ 0
 3.3V
 Wire Wire Line
-	8925 14200 9000 14200
+	9025 11000 9025 10925
 Wire Wire Line
-	9000 13800 8925 13800
-Text GLabel 9000 13900 2    50   Input ~ 0
-BOOT0
-Text GLabel 9000 13800 2    50   Input ~ 0
+	9600 11300 9525 11300
+Text GLabel 9600 11300 2    50   Input ~ 0
 NRST
-Wire Wire Line
-	8925 13900 9000 13900
 $Comp
 L Transistor_BJT:DTC123J QRST1
 U 1 1 5D249555
@@ -3013,17 +3009,17 @@ Extra8
 Wire Wire Line
 	23325 18675 23275 18675
 Text GLabel 11875 13550 0    40   Input ~ 0
-J3_1
+Extra14
 Text GLabel 11875 13450 0    40   Input ~ 0
-J3_2
+Extra13
 Text GLabel 11875 13350 0    40   Input ~ 0
-J3_3
+Extra12
 Text GLabel 11875 13250 0    40   Input ~ 0
-J3_4
+Extra11
 Text GLabel 11875 13150 0    40   Input ~ 0
-J3_5
+Extra10
 Text GLabel 11875 13050 0    40   Input ~ 0
-J3_6
+Extra9
 Wire Wire Line
 	11875 13550 11925 13550
 Wire Wire Line
@@ -3037,27 +3033,27 @@ Wire Wire Line
 Wire Wire Line
 	11925 13050 11875 13050
 Text GLabel 23325 18925 2    50   Input ~ 0
-J3_6
+Extra9
 Wire Wire Line
 	23325 18925 23275 18925
 Text GLabel 23325 19175 2    50   Input ~ 0
-J3_5
+Extra10
 Wire Wire Line
 	23325 19175 23275 19175
 Text GLabel 23325 19425 2    50   Input ~ 0
-J3_4
+Extra11
 Wire Wire Line
 	23325 19425 23275 19425
 Text GLabel 22425 19775 3    50   Input ~ 0
-J3_3
+Extra12
 Wire Wire Line
 	22425 19775 22425 19725
 Text GLabel 21925 19775 3    50   Input ~ 0
-J3_1
+Extra14
 Wire Wire Line
 	21925 19775 21925 19725
 Text GLabel 22175 19775 3    50   Input ~ 0
-J3_2
+Extra13
 Wire Wire Line
 	22175 19775 22175 19725
 Wire Wire Line
@@ -3076,30 +3072,19 @@ Connection ~ 15925 7450
 Wire Wire Line
 	15925 7450 16925 7450
 Wire Wire Line
-	8925 14000 9000 14000
-Text GLabel 9000 14000 2    50   Input ~ 0
+	9525 11500 9600 11500
+Text GLabel 9600 11500 2    50   Input ~ 0
 SWCLK
-$Comp
-L Connector:Conn_01x06_Male J5
-U 1 1 5CF6EE3E
-P 8725 14000
-F 0 "J5" H 8975 14500 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 8975 14400 50  0000 C CNN
-F 2 "acheron_Connectors:HEADER_6PIN_HORIZONTAL" H 8725 14000 50  0001 C CNN
-F 3 "~" H 8725 14000 50  0001 C CNN
-	1    8725 14000
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 5CFDFC6D
-P 9000 14300
-F 0 "#PWR0103" H 9000 14050 50  0001 C CNN
-F 1 "GND" V 9005 14172 50  0000 R CNN
-F 2 "" H 9000 14300 50  0001 C CNN
-F 3 "" H 9000 14300 50  0001 C CNN
-	1    9000 14300
-	0    -1   -1   0   
+P 9025 12275
+F 0 "#PWR0103" H 9025 12025 50  0001 C CNN
+F 1 "GND" V 9030 12147 50  0000 R CNN
+F 2 "" H 9025 12275 50  0001 C CNN
+F 3 "" H 9025 12275 50  0001 C CNN
+	1    9025 12275
+	1    0    0    -1  
 $EndComp
 Text GLabel 20425 19775 3    50   Input ~ 0
 Col3
@@ -3357,7 +3342,7 @@ U 1 1 5DBB9F27
 P 12125 12850
 F 0 "J2" H 12205 12843 50  0000 L CNN
 F 1 "Conn_01x14" H 12205 12750 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 12125 12850 50  0001 C CNN
+F 2 "acheron_Connectors:PinHeader_1x14_P2.54mm_Vertical" H 12125 12850 50  0001 C CNN
 F 3 "~" H 12125 12850 50  0001 C CNN
 	1    12125 12850
 	1    0    0    -1  
@@ -3366,4 +3351,30 @@ Wire Wire Line
 	11875 12350 11925 12350
 Wire Wire Line
 	11875 12250 11925 12250
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_10 J3
+U 1 1 5D8D65B1
+P 9025 11600
+F 0 "J3" H 8582 11646 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" H 8582 11555 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 9025 11600 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 8675 10350 50  0001 C CNN
+	1    9025 11600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8925 12200 8925 12275
+$Comp
+L power:GND #PWR0115
+U 1 1 5D94EDF9
+P 8925 12275
+F 0 "#PWR0115" H 8925 12025 50  0001 C CNN
+F 1 "GND" V 8930 12147 50  0000 R CNN
+F 2 "" H 8925 12275 50  0001 C CNN
+F 3 "" H 8925 12275 50  0001 C CNN
+	1    8925 12275
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9525 11700
+NoConn ~ 9525 11800
 $EndSCHEMATC
