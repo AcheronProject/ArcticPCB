@@ -10,6 +10,14 @@ Arctic is an STM32F072-based universal 60% keyboard PCB featuring limited layout
 
 This PCB also features "relief" flex cuts aimed at improving keyboard typing feeling.
 
+Arctic hold a very special place in my heart as it was one of the first two PCBs, together with the KeebsPCB, in the Acheron Project and effectively inaugurated it.
+
+## Contributors
+
+- Raphael "ArcticFox" Hochheim for helping choosing the compatible layouts
+- Felipe 'MrKeebs" Coury who paid for the V1 prototypes and helped immensely by funcing my learning
+- PCBWay for sponsoring the pre-revision Alpha prototypes
+
 ## Supported layouts
 
 Click [this link](http://www.keyboard-layout-editor.com/#/gists/73be427d3e8086a9253feece2dae6974) for the KLE file for the Arctic.
