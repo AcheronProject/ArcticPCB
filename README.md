@@ -40,6 +40,10 @@ The pre-revision Alpha of the ArcticPCB was sponsored by [PCBWay](http://www.pcb
 
 The review article can be found at [the AcheronDocs page](https://gondolindrim.github.io/AcheronDocs/pcbway/sponsorship.html).
 
+## Icon
+
+The Fox icon was based on [this design](https://www.flaticon.com/free-icon/fox_112476) and slightly modified.
+
 ## Copyright notice
 
 This project is released under the Acheron Open-Hardware License V1.2. For the license, please refer to the LICENCE.md file.
