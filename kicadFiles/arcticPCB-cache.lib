@@ -7,7 +7,7 @@ DEF Connector_Conn_ARM_JTAG_SWD_10 J 0 40 Y Y 1 F N
 F0 "J" -100 650 50 H V R CNN
 F1 "Connector_Conn_ARM_JTAG_SWD_10" -100 550 50 H V R BNN
 F2 "" 0 0 50 H I C CNN
-F3 "" -350 -1250 50 V I C CNN
+F3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" -350 -1250 50 V I C CNN
 $FPLIST
  PinHeader?2x05?P1.27mm*
 $ENDFPLIST
@@ -40,7 +40,7 @@ DEF Connector_Generic_Conn_01x14 J 0 40 Y N 1 F N
 F0 "J" 0 700 50 H V C CNN
 F1 "Connector_Generic_Conn_01x14" 0 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -83,7 +83,7 @@ DEF Device_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "Device_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  C_*
 $ENDFPLIST
@@ -101,7 +101,7 @@ DEF Device_D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "Device_D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  TO-???*
  *_Diode_*
@@ -123,7 +123,7 @@ DEF Device_D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "Device_D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  TO-???*
  *_Diode_*
@@ -145,7 +145,7 @@ DEF Device_Polyfuse_Small F 0 0 N Y 1 F N
 F0 "F" -75 0 50 V V C CNN
 F1 "Device_Polyfuse_Small" 75 0 50 V V C CNN
 F2 "" 50 -200 50 H I L CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  *polyfuse*
  *PTC*
@@ -165,7 +165,7 @@ DEF Device_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "Device_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  R_*
 $ENDFPLIST
@@ -182,7 +182,7 @@ DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
 F0 "H" 0 200 50 H V C CNN
 F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  MountingHole*
 $ENDFPLIST
@@ -197,7 +197,7 @@ DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
 F0 "H" 0 250 50 H V C CNN
 F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  MountingHole*Pad*
 $ENDFPLIST
@@ -213,7 +213,7 @@ DEF Power_Protection_USBLC6-2SC6 U 0 0 Y Y 1 F N
 F0 "U" 200 350 50 H V C CNN
 F1 "Power_Protection_USBLC6-2SC6" 400 -400 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6" -750 400 50 H I C CNN
-F3 "" 200 350 50 H I C CNN
+F3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" 200 350 50 H I C CNN
 $FPLIST
  SOT?23*
 $ENDFPLIST
@@ -257,32 +257,13 @@ X IO1 6 -500 100 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Regulator_Linear_MCP1700-3302E_SOT23
-#
-DEF Regulator_Linear_MCP1700-3302E_SOT23 U 0 10 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "Regulator_Linear_MCP1700-3302E_SOT23" 0 125 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 0 225 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS MCP1700-1202E_SOT23 MCP1700-1802E_SOT23 MCP1700-2502E_SOT23 MCP1700-2802E_SOT23 MCP1700-3302E_SOT23 MCP1700-5002E_SOT23
-$FPLIST
- SOT?23*
-$ENDFPLIST
-DRAW
-S -200 75 200 -200 0 1 10 f
-X GND 1 0 -300 100 U 50 50 1 1 W
-X VO 2 300 0 100 L 50 50 1 1 w
-X VI 3 -300 0 100 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
 # Switch_SW_Push
 #
 DEF Switch_SW_Push SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
 F1 "Switch_SW_Push" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
-F3 "" 0 200 50 H I C CNN
+F3 "~" 0 200 50 H I C CNN
 DRAW
 C -80 0 20 0 1 0 N
 C 80 0 20 0 1 0 N
@@ -409,7 +390,7 @@ DEF acheronSymbols_TYPE-C-31-M12_13 J 0 40 Y Y 1 F N
 F0 "J" -50 1400 50 H V L CNN
 F1 "acheronSymbols_TYPE-C-31-M12_13" 400 1300 50 H V R CNN
 F2 "acheronConnectors:TYPE-C-31-M-12" -500 50 50 V I C CNN
-F3 "" 200 50 50 H I C CNN
+F3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" 200 50 50 H I C CNN
 $FPLIST
  USB*C*Receptacle*
 $ENDFPLIST
