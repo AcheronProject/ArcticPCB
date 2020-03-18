@@ -1,4 +1,4 @@
-update=Wed 18 Mar 2020 07:05:54 PM -03
+update=Wed 18 Mar 2020 07:57:40 PM -03
 version=1
 last_client=kicad
 [general]
@@ -12,13 +12,29 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_WriteFile=0
+ERC_TestSimilarLabels=1
+ERC_CheckUniqueGlobalLabels=1
+ERC_CheckBusDriverConflicts=1
+ERC_CheckBusEntryConflicts=1
+ERC_CheckBusToBusConflicts=1
+ERC_CheckBusToNetConflicts=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-LastSTEPExportPath=
+LastSTEPExportPath=../alpha/arcticPCB.step
 LastIDFExportPath=
-LastVRMLExportPath=
+LastVRMLExportPath=../alpha/arcticPCB.wrl
 LastSpecctraDSNExportPath=
 LastGenCADExportPath=
 CopperLayerCount=2
@@ -74,7 +90,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
