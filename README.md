@@ -10,13 +10,19 @@ Arctic is an STM32F072-based universal 60% keyboard PCB featuring limited layout
 
 This PCB also features "relief" flex cuts aimed at improving keyboard typing feeling.
 
-Arctic hold a very special place in my heart as it was one of the first two PCBs, together with the KeebsPCB, in the Acheron Project and effectively inaugurated it.
+Arctic holds a very special place in my heart as it was one of the first two PCBs, together with the KeebsPCB, in the Acheron Project and effectively inaugurated it.
+
+## Putain Edition
+
+The Putain Edition was made at the request of Zekuto, for a special occasion: a meetup of the french community. So the Putain Edition is a commemorative ArcticPCB edition for that particular occasion.
+
+This edition was based on the ArcticPCB version Alpha. It is a simple re-branding with different color and a "Putain d'édition" logo.
 
 ## Contributors
 
 - Raphael "ArcticFox" Hochheim for helping choosing the compatible layouts
 - Felipe 'MrKeebs" Coury who paid for the V1 prototypes and helped immensely by funcing my learning
-- PCBWay for sponsoring the pre-revision Alpha prototypes
+- Zekuto and the french community for the opportunity of making this edition of ArcticPCB.
 
 ## Supported layouts
 
