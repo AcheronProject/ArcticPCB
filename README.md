@@ -15,7 +15,7 @@ Arctic hold a very special place in my heart as it was one of the first two PCBs
 ## Contributors
 
 - Raphael "ArcticFox" Hochheim for helping choosing the compatible layouts
-- Felipe 'MrKeebs" Coury who paid for the V1 prototypes and helped immensely by funcing my learning
+- Felipe 'MrKeebs" Coury who paid for the V1 prototypes and helped immensely by funding my learning
 - PCBWay for sponsoring the pre-revision Alpha prototypes
 
 ## Supported layouts
